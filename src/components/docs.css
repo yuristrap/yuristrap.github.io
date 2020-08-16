@@ -1,0 +1,23 @@
+body {
+	height: 100%;
+}
+.app {
+	margin-top: 56px;
+	height: 100%;
+	position: relative;
+}
+
+.app .docs {
+	height: 100%;
+}
+.app .docs-menu {
+	/* background-color: #fafafa; */
+	border-right-width: 1.2px;
+	border-right-style: solid;
+	border-right-color: #dfd8e3;
+	height: 100%;
+	position: sticky; 
+	top: 0; 
+}
+.app .docs-content {
+}
