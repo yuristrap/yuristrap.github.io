@@ -5,19 +5,16 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header>
     <nav class="navbar navbar-primary fixed-top">
-	  <a class="navbar-brand" href="#">Navbar</a>
+	  <a class="navbar-brand" href="#">Yuri</a>
 		<ul class="navbar-nav">
 		  <li class="nav-item active">
-			<Link to="#" class="nav-link">Home</Link>
+			<Link to="#" class="nav-link">Docs</Link>
 		  </li>
 		  <li class="nav-item">
-			<Link to="#" class="nav-link">Features</Link>
+			<Link to="#" class="nav-link"></Link>
 		  </li>
 		  <li class="nav-item">
-			<Link to="#" class="nav-link">Pricing</Link>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			<Link to="#" class="nav-link"></Link>
 		  </li>
 		</ul>
     </nav>

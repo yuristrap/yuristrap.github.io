@@ -11,13 +11,42 @@ body {
 	height: 100%;
 }
 .app .docs-menu {
+	padding: 1.25rem 1.5rem 1.5rem 1.25rem;
 	/* background-color: #fafafa; */
 	border-right-width: 1.2px;
 	border-right-style: solid;
 	border-right-color: #dfd8e3;
 	height: 100%;
-	position: sticky; 
-	top: 0; 
+    position: -webkit-sticky !important; /* 사파리 브라우저 지원 */
+    position: sticky !important;
+	top: 56px; 
+	text-align: left;
+}
+.app .docs-menu .menu-head {
+	color: #212529;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.app .docs-menu .menu-list {
+	margin-top: .25rem;
+	padding-left: .5rem;
+	list-style-type: none;
+}
+.app .docs-menu .menu-list .menu-item {
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	font-size: 18px;
+	font-weight: 400;
+}
+.app .docs-menu .menu-list .menu-item a {
+	color: #939699;
+}
+.app .docs-menu .menu-list .menu-item.active a {
+	color: #212529;
+	font-weight: 400;
 }
 .app .docs-content {
+	text-align: left;
 }
