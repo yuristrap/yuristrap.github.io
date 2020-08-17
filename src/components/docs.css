@@ -11,16 +11,16 @@ body {
 	height: 100%;
 }
 .app .docs-menu {
-	padding: 1.25rem 1.5rem 1.5rem 1.25rem;
-	/* background-color: #fafafa; */
+	padding: 2rem 0rem 0rem 2rem !important;
 	border-right-width: 1.2px;
 	border-right-style: solid;
 	border-right-color: #dfd8e3;
-	height: 100%;
-    position: -webkit-sticky !important; /* 사파리 브라우저 지원 */
+	height: calc(100vh - 56px);
+    position: -webkit-sticky !important;
     position: sticky !important;
 	top: 56px; 
 	text-align: left;
+	overflow: auto;
 }
 .app .docs-menu .menu-head {
 	color: #212529;
@@ -49,4 +49,5 @@ body {
 }
 .app .docs-content {
 	text-align: left;
+	padding: 3rem !important;
 }
