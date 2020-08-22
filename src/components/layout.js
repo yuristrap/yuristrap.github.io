@@ -10,8 +10,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
-import "./docs.css"
 import "./yuri.css"
+import "./docs.css"
 
 class SubMenu extends React.Component {
     render() {
@@ -69,8 +69,8 @@ const Layout = ({ slug, children }) => {
 		  ]
 	  },
 	  { 
-		  headMenuName: 'Componentsp',
-		  headPath: '/componentsp',
+		  headMenuName: 'Components',
+		  headPath: '/components',
 		  subMenuMap: [
 			  { subMenuName: 'Alert', path: '/alert' },
 			  { subMenuName: 'Button', path: '/button' },
