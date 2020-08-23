@@ -15,6 +15,8 @@ const Header = () => (
 		  <li className="nav-item">
 			<Link to="#" className="nav-link"></Link>
 		  </li>
+		<input className="container_toggle" type="checkbox" id="switch" name="mode"/>
+		<label htmlFor="switch">Toggle</label>
 		</ul>
     </nav>
   </header>

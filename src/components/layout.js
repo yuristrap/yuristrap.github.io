@@ -6,8 +6,9 @@
  */
 
 import React from "react"
+import Helmet from "react-helmet"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql, Link, withPrefix } from "gatsby"
 
 import Header from "./header"
 import "./yuri.css"
@@ -39,6 +40,7 @@ class HeadMenu extends React.Component {
 								slug = {this.props.slug}
 								headPath = {this.props.headPath}
 								subMenu = {subMenu}
+								key = {idx}
 							/>
 						);
 					})}
@@ -82,6 +84,9 @@ const Layout = ({ slug, children }) => {
   ]
   return (
     <>
+	  <Helmet>
+		  <script src={withPrefix('night.js')} type="text/javascript" />
+	  </Helmet>
       <Header/>
       <div className="app container-fluid">
 		  <div className="row docs">
@@ -93,6 +98,7 @@ const Layout = ({ slug, children }) => {
 								headMenuName = {docsMenu.headMenuName} 
 								headPath = {docsMenu.headPath} 
 								subMenuMap = {docsMenu.subMenuMap}
+								key = {idx}
 							/>
 						);
                     })}
