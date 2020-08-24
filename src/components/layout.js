@@ -67,7 +67,8 @@ const Layout = ({ slug, children }) => {
 		  subMenuMap: [
 			  { subMenuName: 'Flex', path: '/flex' },
 			  { subMenuName: 'Grid', path: '/grid' },
-			  { subMenuName: 'Position', path: '/position' }
+			  { subMenuName: 'Position', path: '/position' },
+			  { subMenuName: 'Night mode', path: '/nightmode' }
 		  ]
 	  },
 	  { 
