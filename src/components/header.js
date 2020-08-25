@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import NightCheckbox from "./night"
 
 const Header = () => (
   <header>
@@ -15,8 +16,7 @@ const Header = () => (
 		  <li className="nav-item">
 			<Link to="#" className="nav-link"></Link>
 		  </li>
-		<input className="container_toggle" type="checkbox" id="switch" name="mode"/>
-		<label htmlFor="switch">Toggle</label>
+			<NightCheckbox></NightCheckbox>
 		</ul>
     </nav>
   </header>
