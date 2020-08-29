@@ -14,6 +14,11 @@ import Header from "./header"
 import "./yuri.css"
 import "./docs.css"
 
+// const $ = require( "jquery" )( window );
+// import $ from "jquery";
+// import "./navbar.js"
+// <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
 class SubMenu extends React.Component {
     render() {
         return(
@@ -86,7 +91,9 @@ const Layout = ({ slug, children }) => {
   return (
     <>
 	  <Helmet>
-		  <script src={withPrefix('night.js')} type="text/javascript" />
+		  <script src="https://code.jquery.com/jquery-3.5.1.min.js" type="text/javascript"></script>
+		  <script src={withPrefix('navbar.js')} type="text/javascript"></script>
+		  <script src={withPrefix('night.js')} type="text/javascript"></script>
 	  </Helmet>
       <Header/>
       <div className="app container-fluid">
