@@ -26,11 +26,11 @@ class NightCheckbox extends React.Component {
 
      tick() {
 		 if (this.state.checkBox) {
-			localStorage.toggled = 'dark';
-			document.documentElement.setAttribute('data-theme', 'dark');
-		 } else {
 			localStorage.toggled = '';
 			document.documentElement.setAttribute('data-theme', 'light');
+		 } else {
+			localStorage.toggled = 'dark';
+			document.documentElement.setAttribute('data-theme', 'dark');
 		 }
 		 console.log('CLICK ME');
 		 

@@ -7,8 +7,7 @@ title: "night mode"
 
 
 ## Sample
-<input className="container_toggle" type="checkbox" id="switch" name="mode"/>
-<label htmlFor="switch">Click Me !!</label>
+Click Checkbox on fixed-navbar!
 
 
 ## Using font-color directly
