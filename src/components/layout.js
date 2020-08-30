@@ -14,11 +14,6 @@ import Header from "./header"
 import "./yuri.css"
 import "./docs.css"
 
-// const $ = require( "jquery" )( window );
-// import $ from "jquery";
-// import "./navbar.js"
-// <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
 class SubMenu extends React.Component {
     render() {
         return(
@@ -98,7 +93,11 @@ const Layout = ({ slug, children }) => {
       <Header/>
       <div className="app container-fluid">
 		  <div className="row docs">
-			  <div className="col-md-2 docs-menu">
+			  <div className="col-md-2 docs-menu" id="nav-collapse">
+					<button className="navbar-toggler" type="button" data-target="#menus">
+						<span className="navbar-toggler-icon"></span>
+					</button>
+					<div id="menus" className="collapse">
                     {docsMenuMap.map((docsMenu, idx) => {
                         return (
 							<HeadMenu 
@@ -110,6 +109,7 @@ const Layout = ({ slug, children }) => {
 							/>
 						);
                     })}
+					</div>
 			  </div>
 			  <div className="col-md-10 docs-content">
 				<main>{children}</main>
