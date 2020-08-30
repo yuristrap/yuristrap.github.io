@@ -87,17 +87,17 @@ const Layout = ({ slug, children }) => {
     <>
 	  <Helmet>
 		  <script src="https://code.jquery.com/jquery-3.5.1.min.js" type="text/javascript"></script>
-		  <script src={withPrefix('navbar.js')} type="text/javascript"></script>
+		  <script src={withPrefix('yuri.js')} type="text/javascript"></script>
 		  <script src={withPrefix('night.js')} type="text/javascript"></script>
 	  </Helmet>
       <Header/>
       <div className="app container-fluid">
 		  <div className="row docs">
 			  <div className="col-md-2 docs-menu" id="nav-collapse">
-					<button className="navbar-toggler" type="button" data-target="#menus">
+					<button className="navbar-toggler" type="button" data-target="#menus" data-toggle="collapse">
 						<span className="navbar-toggler-icon"></span>
 					</button>
-					<div id="menus" className="collapse">
+					<div id="menus" className="collapse collapse-md">
                     {docsMenuMap.map((docsMenu, idx) => {
                         return (
 							<HeadMenu 

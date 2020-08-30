@@ -282,11 +282,15 @@ Use `.fixed-top` or `.fixed-bottom`
 ##  Navbar Responsive
 Must write `.navbar-**` in `.navbar`
 
+`data-target` should point to collapse target.
+
+The button to open the target should have `data-toggle="collapse"`.
+
 <div class="card">
 <div class="card-body">
 <nav class="navbar navbar-light navbar-md">
 	<a class="navbar-brand" href="#">Navbar</a>
-	<button class="navbar-toggler" type="button" data-target="#navbar-collapse-01">
+	<button class="navbar-toggler" type="button" data-target="#navbar-collapse-01" data-toggle="collapse">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbar-collapse-01">
