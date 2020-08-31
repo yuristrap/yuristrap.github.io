@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
     $('body').on('click', '[data-toggle="collapse"]', function(e){
       e.preventDefault();
       var target_selector = $(this).data('target');
