@@ -64,6 +64,11 @@ body {
 	padding: 3rem !important;
 }
 
+.show-col {
+	border: 1px solid #C5A4D8;
+	background-color: #EDE7F6;
+}
+
 h2 {
 	margin-top: 3rem;
 }
