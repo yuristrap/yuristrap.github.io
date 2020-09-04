@@ -79,6 +79,7 @@ const Layout = ({ slug, children }) => {
 			  { subMenuName: 'Button', path: '/button' },
 			  { subMenuName: 'Card', path: '/card' },
 			  { subMenuName: 'Form', path: '/form' },
+			  { subMenuName: 'Nav', path: '/nav' },
 			  { subMenuName: 'Navbar', path: '/navbar' }
 		  ]
 	  }
