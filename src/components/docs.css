@@ -69,6 +69,6 @@ body {
 	background-color: #EDE7F6;
 }
 
-h2 {
+.blog-post-content>h2 {
 	margin-top: 3rem;
 }

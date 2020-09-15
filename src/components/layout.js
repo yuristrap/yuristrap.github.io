@@ -77,6 +77,7 @@ const Layout = ({ slug, children }) => {
 		  subMenuMap: [
 			  { subMenuName: 'Alert', path: '/alert' },
 			  { subMenuName: 'Button', path: '/button' },
+			  { subMenuName: 'Badge', path: '/badge' },
 			  { subMenuName: 'Card', path: '/card' },
 			  { subMenuName: 'Form', path: '/form' },
 			  { subMenuName: 'Nav', path: '/nav' },
