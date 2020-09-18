@@ -57,14 +57,17 @@ const Layout = ({ slug, children }) => {
 					<DocsMenu
 						headMenuName = 'introduction'
 						menus = {docsMenuMap.introduction.nodes}
+						slug = {slug}
 					/>
 					<DocsMenu
 						headMenuName = 'utilities'
 						menus = {docsMenuMap.utilities.nodes}
+						slug = {slug}
 					/>
 					<DocsMenu
 						headMenuName = 'components'
 						menus = {docsMenuMap.components.nodes}
+						slug = {slug}
 					/>
 					</div>
 			  </div>
