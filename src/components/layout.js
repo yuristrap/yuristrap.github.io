@@ -1,93 +1,44 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import Helmet from "react-helmet"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link, withPrefix } from "gatsby"
 
 import Header from "./header"
-import "./yuri.css"
-import "./docs.css"
+import DocsMenu from "./menu"
+import "../styles/yuri.css"
+import "../styles/docs.css"
 
-class SubMenu extends React.Component {
-    render() {
-        return(
-			<li className={"menu-item " + ((this.props.slug === this.props.headPath + this.props.subMenu.path) ? 'active' : '')}>
-				<Link to={this.props.headPath + this.props.subMenu.path}>
-					{this.props.subMenu.subMenuName}
-				</Link>
-			</li>
-		);
-    }
-}
-
-class HeadMenu extends React.Component {
-    render() {
-        return(
-			<>
-				<Link to="#" className="menu-head">
-					{this.props.headMenuName}
-				</Link>
-				<ul className="menu-list">
-					{this.props.subMenuMap.map((subMenu, idx) => {
-						return (
-							<SubMenu 
-								slug = {this.props.slug}
-								headPath = {this.props.headPath}
-								subMenu = {subMenu}
-								key = {idx}
-							/>
-						);
-					})}
-				</ul>
-			</>
-		);
-    }
-}
-
+	
 const Layout = ({ slug, children }) => {
-  const docsMenuMap = [
-	  { 
-		  headMenuName: 'Introduction',
-		  headPath: '/introduction',
-		  subMenuMap: [
-			  { subMenuName: 'Download', path: '/download' },
-			  { subMenuName: 'Customize', path: '/customize' },
-			  { subMenuName: 'Reboot', path: '/reboot' }
-		  ]
-	  },
-	  { 
-		  headMenuName: 'Utilities',
-		  headPath: '/utilities',
-		  subMenuMap: [
-			  { subMenuName: 'Align', path: '/algin' },
-			  { subMenuName: 'Shadow', path: '/shadow' },
-			  { subMenuName: 'Flex', path: '/flex' },
-			  { subMenuName: 'Float', path: '/float' },
-			  { subMenuName: 'Grid', path: '/grid' },
-			  { subMenuName: 'Position', path: '/position' },
-			  { subMenuName: 'Night mode', path: '/nightmode' }
-		  ]
-	  },
-	  { 
-		  headMenuName: 'Components',
-		  headPath: '/components',
-		  subMenuMap: [
-			  { subMenuName: 'Alert', path: '/alert' },
-			  { subMenuName: 'Button', path: '/button' },
-			  { subMenuName: 'Badge', path: '/badge' },
-			  { subMenuName: 'Card', path: '/card' },
-			  { subMenuName: 'Form', path: '/form' },
-			  { subMenuName: 'Nav', path: '/nav' },
-			  { subMenuName: 'Navbar', path: '/navbar' }
-		  ]
-	  }
-  ]
+	const docsMenuMap = useStaticQuery(
+		graphql`
+			query {
+			  introduction: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "introduction"}}, sort: {fields: name}) {
+				nodes {
+				  name
+				  headMenuName: relativeDirectory
+				  path: relativePath
+				}
+			  }
+			  utilities: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "utilities"}}, sort: {fields: name}) {
+				nodes {
+				  name
+				  headMenuName: relativeDirectory
+				  path: relativePath
+				}
+			  }
+			  components: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "components"}}, sort: {fields: name}) {
+				nodes {
+				  name
+				  headMenuName: relativeDirectory
+				  path: relativePath
+				}
+			  }
+			}
+
+		`
+	);
+	
   return (
     <>
 	  <Helmet>
@@ -103,17 +54,18 @@ const Layout = ({ slug, children }) => {
 						<span className="navbar-toggler-icon"></span>
 					</button>
 					<div id="menus" className="collapse collapse-md">
-                    {docsMenuMap.map((docsMenu, idx) => {
-                        return (
-							<HeadMenu 
-								slug = {slug} 
-								headMenuName = {docsMenu.headMenuName} 
-								headPath = {docsMenu.headPath} 
-								subMenuMap = {docsMenu.subMenuMap}
-								key = {idx}
-							/>
-						);
-                    })}
+					<DocsMenu
+						headMenuName = 'introduction'
+						menus = {docsMenuMap.introduction.nodes}
+					/>
+					<DocsMenu
+						headMenuName = 'utilities'
+						menus = {docsMenuMap.utilities.nodes}
+					/>
+					<DocsMenu
+						headMenuName = 'components'
+						menus = {docsMenuMap.components.nodes}
+					/>
 					</div>
 			  </div>
 			  <div className="col-md-10 docs-content">
@@ -128,6 +80,5 @@ const Layout = ({ slug, children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
-
 
 export default Layout

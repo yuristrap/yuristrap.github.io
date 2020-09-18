@@ -1,6 +1,6 @@
 ---
-slug: "/utilities/algin"
-title: "algin"
+slug: "/utilities/align"
+title: "align"
 ---
 
 ## Align
