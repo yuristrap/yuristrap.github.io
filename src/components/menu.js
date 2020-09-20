@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import { upperCase } from './util'
 
 function checkSlugHeadMenu(slug, headMenuName) {
+	if (slug === undefined)
+		return false;
 	if (slug.split('/')[1] === headMenuName)
 		return true;
 	return false;
