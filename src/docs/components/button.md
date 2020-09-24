@@ -81,14 +81,14 @@ title: "button"
 ## Button Class
 <div class="card">
 <div class="card-body">
-<a href="#" class="btn btn-primary">primary</a>
-<a href="#" class="btn btn-success">success</a>
-<a href="#" class="btn btn-warning">warning</a>
-<a href="#" class="btn btn-danger">danger</a>
-<a href="#" class="btn btn-info">info</a>
-<a href="#" class="btn btn-brown">brown</a>
-<a href="#" class="btn btn-dark">dark</a>
-<a href="#" class="btn btn-light">light</a>
+<a href="#" onclick="return false;" class="btn btn-primary">primary</a>
+<a href="#" onclick="return false;" class="btn btn-success">success</a>
+<a href="#" onclick="return false;" class="btn btn-warning">warning</a>
+<a href="#" onclick="return false;" class="btn btn-danger">danger</a>
+<a href="#" onclick="return false;" class="btn btn-info">info</a>
+<a href="#" onclick="return false;" class="btn btn-brown">brown</a>
+<a href="#" onclick="return false;" class="btn btn-dark">dark</a>
+<a href="#" onclick="return false;" class="btn btn-light">light</a>
 
 ```html
 <a href="#" class="btn btn-primary">primary</a>
