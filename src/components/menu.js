@@ -17,13 +17,13 @@ class DocsMenu extends React.Component {
 			<>
 				<Link to={'/' + this.props.headMenuName + '/' + this.props.menus[0].name} className="menu-head">
 					{upperCase(this.props.headMenuName)}
-					<img class="f-right" src="https://systemuicons.com/images/icons/chevron_down.svg"/>
+					<img className="f-right" src="https://systemuicons.com/images/icons/chevron_down.svg"/>
 				</Link>
 				<ul className={"menu-list " + ( checkSlugHeadMenu(this.props.slug, this.props.headMenuName) ? '' : 'dsp-none' )}>
 					{this.props.menus.map((menu, idx) => {
 						let path = '/' + this.props.headMenuName + '/' + menu.name;
 						return (
-							<li className={"menu-item " + ((this.props.slug === path) ? 'active' : '')}>
+							<li className={"menu-item " + ((this.props.slug === path) ? 'active' : '')} key={idx}>
 								<Link to={path}>
 									{menu.name}
 								</Link>
