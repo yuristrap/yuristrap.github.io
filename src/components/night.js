@@ -46,16 +46,17 @@ class NightCheckbox extends React.Component {
 
      render() {
        return (
-         <div>
+         <div className="form-check dsp-flex align-items-center">
            <input
 			 name="mode"
 			 id="switch"
-			 className="container_toggle" 
+			 className="container_toggle form-switch-input" 
              type="checkbox"
              onClick={this.tick}
              defaultChecked={this.state.checkBox}
            />
-			<label htmlFor="switch">{this.state.checkedMsg}</label>
+			<label className="form-switch-label brown size-md" htmlFor="switch"></label>
+		   {this.state.checkedMsg}
          </div>
        );
      }

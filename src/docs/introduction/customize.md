@@ -1,10 +1,10 @@
 ---
 slug: "/introduction/customize"
-title: "customize"
+title: "커스터마이징"
 ---
 
-# customize
-## customize
+# 커스터마이징
+## 커스터마이징
 
-customize
+커스터마이징
 
