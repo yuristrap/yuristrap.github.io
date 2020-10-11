@@ -104,3 +104,10 @@ body {
 	padding: .75rem 1rem;
 	border: 1px solid #8863d85e;
 }
+.ex-border {
+	padding: .5rem;
+	border: 1px solid var(--primaryColor);
+}
+.ex-border + .ex-border {
+	margin-top: 1rem;
+}
