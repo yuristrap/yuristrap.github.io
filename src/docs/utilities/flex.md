@@ -1,9 +1,11 @@
 ---
 slug: "/utilities/flex"
-title: "flex"
+title: "플렉스"
 ---
 
-# Flex
+# 플렉스
+
+`display` 속성을 `flex`로 사용할때 사용합니다.
 
 <div class="card">
 <div class="card-body">
@@ -17,7 +19,7 @@ title: "flex"
 </div>
 
 
-## Flex Direction
+## 플렉스 방향
 <div class="card">
 <div class="card-body">
 
@@ -40,6 +42,8 @@ title: "flex"
 
 
 ## Fill
+`flex: 1 1 auto` 값이 입력 되어 있는 클래스입니다.
+
 <div class="card">
 <div class="card-body">
 
@@ -52,7 +56,9 @@ title: "flex"
 </div>
 
 
-## Responsive row
+## 반응형 row
+반응형으로 flex 방향을 row로 바꿀때 사용합니다.
+
 <div class="card">
 <div class="card-body">
 
@@ -66,7 +72,9 @@ title: "flex"
 </div>
 
 
-## Responsive Col
+## 반응형 col
+반응형으로 flex 방향을 col로 바꿀때 사용합니다.
+
 <div class="card">
 <div class="card-body">
 
@@ -81,6 +89,8 @@ title: "flex"
 
 
 ## Justify
+요소들의 수평 방향 정렬을 정할때 사용합니다.
+
 <div class="card">
 <div class="card-body">
 <div class="dsp-flex justify-start ex-block h-50">
@@ -99,28 +109,30 @@ title: "flex"
 	<div class="ex-block-sm">item1</div><div class="ex-block-sm">item2</div><div class="ex-block-sm">item3</div>
 </div>
 
-```css
-.justify-start {
-	justify-content: flex-start !important;
-}
-.justify-end {
-	justify-content: flex-end !important;
-}
-.justify-center {
-	justify-content: center !important;
-}
-.justify-between {
-	justify-content: space-between !important;
-}
-.justify-around {
-	justify-content: space-around !important;
-}
+```html
+<div class="dsp-flex justify-start">
+	<div>item1</div><div>item2</div><div>item3</div>
+</div>
+<div class="dsp-flex justify-end">
+	<div>item1</div><div>item2</div><div>item3</div>
+</div>
+<div class="dsp-flex justify-center">
+	<div>item1</div><div>item2</div><div>item3</div>
+</div>
+<div class="dsp-flex justify-between">
+	<div>item1</div><div>item2</div><div>item3</div>
+</div>
+<div class="dsp-flex justify-around">
+	<div>item1</div><div>item2</div><div>item3</div>
+</div>
 ```
 </div>
 </div>
 
 
-## Item-Align
+## Item 정렬
+수직방향 기준으로 요소들을 정렬할때 사용합니다.
+
 <div class="card">
 <div class="card-body">
 <div class="dsp-flex align-items-stretch ex-block h-75">
@@ -160,7 +172,9 @@ title: "flex"
 </div>
 
 
-## Content-Align
+## Content 정렬
+flex 라인을 정렬할때 사용합니다.
+
 <div class="card">
 <div class="card-body">
 <div class="dsp-flex f-wrap align-content-stretch ex-block h-75">
@@ -200,7 +214,9 @@ title: "flex"
 </div>
 
 
-## Self-Align
+## Self 정렬
+flex 요소마다 서로 다른 정렬 방식을 입력할때 사용합니다.
+
 <div class="card">
 <div class="card-body">
 <div class="dsp-flex ex-block h-75">

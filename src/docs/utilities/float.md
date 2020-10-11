@@ -1,17 +1,19 @@
 ---
 slug: "/utilities/float"
-title: "float"
+title: "플로트"
 ---
 
-# Float
+# 플로트
 
 <div class="card">
 <div class="card-body">
-<div class="f-left">Float left</div>
-<div class="f-right">Float right</div>
-<div class="f-inherit">Float inherit</div>
-<div class="f-initial">Float initial</div>
-<div class="f-none">Don't float</div>
+<p class="float-left">Float left</p>
+<br/>
+<p class="float-right">Float right</p>
+<br/>
+<p class="float-inherit">Float inherit</p>
+<p class="float-initial">Float initial</p>
+<p class="float-none">Don't float</p>
 
 ```css
 .f-inherit { float: inherit !important; }

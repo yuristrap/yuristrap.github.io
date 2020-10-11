@@ -1,9 +1,11 @@
 ---
 slug: "/utilities/align"
-title: "align"
+title: "정렬"
 ---
 
-## Vertical-Align
+# 정렬
+
+## 세로 정렬
 <div class="card">
 <div class="card-body">
 <span class="align-vertical-baseline">baseline</span>
@@ -24,7 +26,7 @@ title: "align"
 </div>
 </div>
 
-## Base of parent height
+## 부모 높이 기준에 의한 정렬
 <div class="card">
 <div class="card-body">
 <table style="height: 100px;">

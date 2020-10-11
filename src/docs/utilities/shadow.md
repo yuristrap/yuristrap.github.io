@@ -1,12 +1,12 @@
 ---
 slug: "/utilities/shadow"
-title: "shadow"
+title: "그림자"
 ---
 
-# Shadow
+# 그림자
+`box-shadow` 효과를 주어 요소를 돋보아 보이게 하거나 분리 시켜줄때 주로 사용합니다.
 
-
-## Shadow size
+## 그림자 크기
 <div class="card">
 <div class="card-body">
 <div class="shadow-none m-b-3" style="height: 50px">
@@ -46,7 +46,9 @@ title: "shadow"
 </div>
 
 
-## Shadow center
+## 가운데 그림자
+가운데 방향으로 퍼져나가는 그림자입니다. 
+
 <div class="card">
 <div class="card-body">
 <div class="shadow-center-sm m-b-3" style="height: 50px">
