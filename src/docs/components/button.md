@@ -3,10 +3,38 @@ slug: "/components/button"
 title: "button"
 ---
 
-# Button
+# 버튼 (button)
+버튼 태그
+.btn 클래스는 ```<button>``` 요소와 함께 사용하도록 설계되었습니다. 그러나 이러한 클래스는 ```<a>``` 또는 ```<input>``` 요소에서도 사용할 수 있습니다. (일부 브라우저에서는 약간 다른 렌더링을 적용될 수 있음).
 
+현재 페이지 내의 새 페이지 또는 섹션에 연결할 때 사용되는 ```<a>``` 요소에 버튼 클래스를 사용하는 경우 ```<a>``` 태그 속성에 ```role = "button"```을 지정해야 합니다.
 
-## Basic Button
+<div class="card">
+<div class="card-body">
+<a href="#" onclick="return false;" class="btn btn-primary" role="button">primary</a>
+<a href="#" onclick="return false;" class="btn btn-success" role="button">success</a>
+<a href="#" onclick="return false;" class="btn btn-warning" role="button">warning</a>
+<a href="#" onclick="return false;" class="btn btn-danger" role="button">danger</a>
+<a href="#" onclick="return false;" class="btn btn-info" role="button">info</a>
+<a href="#" onclick="return false;" class="btn btn-brown" role="button">brown</a>
+<a href="#" onclick="return false;" class="btn btn-dark" role="button">dark</a>
+<a href="#" onclick="return false;" class="btn btn-light" role="button">light</a>
+
+```html
+<a href="#" class="btn btn-primary" role="button">primary</a>
+<a href="#" class="btn btn-success" role="button">success</a>
+<a href="#" class="btn btn-warning" role="button">warning</a>
+<a href="#" class="btn btn-danger" role="button">danger</a>
+<a href="#" class="btn btn-info" role="button">info</a>
+<a href="#" class="btn btn-brown" role="button">brown</a>
+<a href="#" class="btn btn-dark" role="button">dark</a>
+<a href="#" class="btn btn-light" role="button">light</a>
+```
+</div>
+</div>
+
+## 기본 버튼
+유리 스트랩에는 사전 정의된 여러 버튼 스타일이 포함되어 있으며, 각 스타일은 고유한 의미를 제공하며 더 많은 제어를 위해 몇 가지 추가 기능이 제공됩니다.
 <div class="card">
 <div class="card-body">
 <button type="button" class="btn btn-primary">primary</button>
@@ -31,7 +59,8 @@ title: "button"
 </div>
 </div>
 
-## Outline Button
+## 테두리 버튼
+버튼이 필요하지만 기본 버튼이 가져 오는 배경색이 필요하지 않으면 기본 버튼 클래스를 ```.btn-outline- *``` 클래스로 대체하여 모든 버튼의 모든 배경 이미지와 색상을 제거합니다.
 <div class="card">
 <div class="card-body">
 <button type="button" class="btn btn-outline-primary">primary</button>
@@ -54,7 +83,8 @@ title: "button"
 </div>
 </div>
 
-## Size Button
+## 버튼 사이즈
+더 크거나 작은 버튼을 원하시면 ```.btn-lg``` 또는 ```.btn-sm```을 추가하십시오.
 <div class="card">
 <div class="card-body">
 <button type="button" class="btn btn-primary btn-sm">Small button</button>
@@ -67,38 +97,14 @@ title: "button"
 </div>
 </div>
 
-## Block Button
+## 블록 버튼
+```.btn-block```을 추가하여 부모의 전체 너비에 걸쳐있는 블록 버튼을 만듭니다.
 <div class="card">
 <div class="card-body">
 <button type="button" class="btn btn-primary btn-block">Block button</button>
 
 ```html
 <button type="button" class="btn btn-primary btn-block">Block button</button>
-```
-</div>
-</div>
-
-## Button Class
-<div class="card">
-<div class="card-body">
-<a href="#" onclick="return false;" class="btn btn-primary">primary</a>
-<a href="#" onclick="return false;" class="btn btn-success">success</a>
-<a href="#" onclick="return false;" class="btn btn-warning">warning</a>
-<a href="#" onclick="return false;" class="btn btn-danger">danger</a>
-<a href="#" onclick="return false;" class="btn btn-info">info</a>
-<a href="#" onclick="return false;" class="btn btn-brown">brown</a>
-<a href="#" onclick="return false;" class="btn btn-dark">dark</a>
-<a href="#" onclick="return false;" class="btn btn-light">light</a>
-
-```html
-<a href="#" class="btn btn-primary">primary</a>
-<a href="#" class="btn btn-success">success</a>
-<a href="#" class="btn btn-warning">warning</a>
-<a href="#" class="btn btn-danger">danger</a>
-<a href="#" class="btn btn-info">info</a>
-<a href="#" class="btn btn-brown">brown</a>
-<a href="#" class="btn btn-dark">dark</a>
-<a href="#" class="btn btn-light">light</a>
 ```
 </div>
 </div>

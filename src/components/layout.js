@@ -45,6 +45,7 @@ const Layout = ({ slug, children }) => {
 		  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 		  <script src={withPrefix('yuri.js')} type="text/javascript"></script>
 		  <script src={withPrefix('night.js')} type="text/javascript"></script>
+		  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"></link>
 	  </Helmet>
       <Header/>
       <div className="app container-fluid">

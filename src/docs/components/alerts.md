@@ -3,9 +3,11 @@ slug: "/components/alerts"
 title: "alerts"
 ---
 
-# Alerts
+# 알림&경고 (alerts)
+경고 메시지나 일반적인 사용자 작업에 대한 상황별 피드백 메시지를 제공합니다.
 
-## Basic Badge
+## 기본 배지
+모든 길이의 텍스트와 선택적인 닫기 버튼에 대해 경고를 사용할 수 있습니다. 적절한 스타일을 지정하려면 8개의 필수 컨텍스트 클래스(색깔) 중 하나를 사용하십시오. (예 : .alert-success)
 <div class="card">
 <div class="card-body">
 <div class="alert alert-primary" role="alert">
@@ -56,7 +58,8 @@ title: "alerts"
 ```
 </div>
 
-## Link color
+## 링크 색
+기본적인 배지에 링크를 걸어둘 때 조금 더 진하게 사용할 수 있습니다.
 <div class="card">
 <div class="card-body">
 <div class="alert alert-primary" role="alert">
@@ -108,7 +111,8 @@ title: "alerts"
 
 </div>
 
-## Additional content
+## 추가 콘텐츠
+경고에는 제목, 단락 및 구분 선과 같은 추가 HTML 요소도 포함될 수 있습니다.
 <div class="card">
 <div class="card-body">
 <div class="alert alert-success" role="alert">

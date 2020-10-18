@@ -3,10 +3,11 @@ slug: "/components/form"
 title: "form"
 ---
 
-# Form
+# 폼(Form)
+다양한 폼(Form) 만들기 위한 스타일, 레이아웃 옵션 및 사용자 지정 구성 요소에 대한 예제 및 사용법 입니다.
 
-
-## CheckBox
+## 체크 박스 (Check box)
+체크 박스는 목록에서 하나 또는 여러 옵션을 선택하기위한 것입니다.
 <div class="card">
 <div class="card-body">
 <div class="form-check">
@@ -74,7 +75,8 @@ title: "form"
 </div>
 
 
-## Radio
+## 단일 선택(Radio)
+Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 <div class="card">
 <div class="card-body">
 <div class="form-check">
@@ -144,7 +146,8 @@ title: "form"
 </div>
 
 
-## Form check inline
+## 체크박스 그룹화
+```.form-check```에 ```.form-check-inline을``` 추가하여 동일한 가로 행에 있는 체크박스 또는 Radio를 그룹화합니다.
 <div class="card">
 <div class="card-body">
 <div class="form-check form-check-inline">
@@ -178,7 +181,7 @@ title: "form"
 </div>
 </div>
 
-## Form group
+## 폼(Form) 그룹
 <div class="card">
 <div class="card-body">
 <form>
