@@ -12,7 +12,7 @@ title: "card"
 <div class="card">
 <div class="card-body">
 	<div class="card" style="width: 20rem;">
-	  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/181029_IZ%2AONE_Yuri_01.png" class="card-img-top" alt="...">
+	  <img src="/Yuri-tempImage.png" class="card-img-top" alt="...">
 	  <div class="card-body">
 		<h5 class="card-title">Card title</h5>
 		<h6 class="card-subtitle">Card subtitle</h6>
@@ -25,7 +25,7 @@ title: "card"
 
 ```html
 <div class="card" style="width: 20rem;">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/181029_IZ%2AONE_Yuri_01.png" class="card-img-top" alt="...">
+	<img src="/Yuri-tempImage.png" class="card-img-top" alt="...">
 	<div class="card-body">
 		<h5 class="card-title">Card title</h5>
 		<h6 class="card-subtitle">Card subtitle</h6>
@@ -130,7 +130,7 @@ title: "card"
 <div class="card">
 <div class="card-body">
 	<div class="card" style="width: 20rem;">
-	  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/181029_IZ%2AONE_Yuri_01.png" class="card-img-top" alt="...">
+	  <img src="/Yuri-tempImage.png" class="card-img-top" alt="...">
 	  <div class="card-body">
 		Some quick example text to build on the card title and make up the bulk of the card's content.
 	  </div>
@@ -138,7 +138,7 @@ title: "card"
 
 ```html
 <div class="card" style="width: 20rem;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/181029_IZ%2AONE_Yuri_01.png" class="card-img-top" alt="...">
+  <img src="/Yuri-tempImage.png" class="card-img-top" alt="...">
   <div class="card-body">
 	Some quick example text to build on the card title and make up the bulk of the card's content.
   </div>

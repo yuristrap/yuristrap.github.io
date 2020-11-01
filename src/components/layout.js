@@ -45,12 +45,11 @@ const Layout = ({ slug, children }) => {
 		  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 		  <script src={withPrefix('yuri.js')} type="text/javascript"></script>
 		  <script src={withPrefix('night.js')} type="text/javascript"></script>
-		  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"></link>
 	  </Helmet>
       <Header/>
       <div className="app container-fluid">
 		  <div className="row docs">
-			  <div className="col-md-2 docs-menu" id="nav-collapse">
+			  <div className="col-md-3 docs-menu" id="nav-collapse">
 					<button className="navbar-toggler show-md" type="button" data-target="#menus" data-toggle="collapse">
 						<span className="navbar-toggler-icon"></span>
 					</button>
@@ -72,7 +71,7 @@ const Layout = ({ slug, children }) => {
 					/>
 					</div>
 			  </div>
-			  <div className="col-md-10 docs-content">
+			  <div className="col-md-9 docs-content">
 				<main>{children}</main>
 			  </div>
 		  </div>

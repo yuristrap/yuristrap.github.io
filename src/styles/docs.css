@@ -1,7 +1,13 @@
 body {
 	height: 100%;
-	font-family: 'Jua', sans-serif;
 }
+.blog-post-content > h1 {
+	font-weight: bold;
+}
+/* .app .card .card-body h2 {
+	font-weight: 500;
+} */
+
 .app {
 	margin-top: 56px;
 	height: 100%;
@@ -13,19 +19,39 @@ body {
 }
 .app .docs-menu {
 	/* padding: 2rem 0rem 0rem 2rem; */
+	padding-top: 1rem;
 	margin-left: auto;
 	margin-right: auto;
 	border-right-width: 1.2px;
 	border-right-style: solid;
 	border-right-color: #dfd8e3;
-	height: calc(100vh - 56px);
+	height: calc(100vh - 72px);
     position: sticky;
-	top: 56px; 
+	top: 72px; 
 	text-align: left;
 	overflow: auto;
 }
+
+/* 아직 yuri.css 가 동시 col-* 을 지원하지 않음. 차후 지원하면 아래 css 는 제거됨 */
+@media (min-width: 1200px) {
+	.app .docs-menu {
+		flex: 0 0 16.66667%;
+		max-width: 16.66667%;
+	}
+	.app .docs-content {
+		flex: 0 0 83.33333%;
+		max-width: 83.33333%;
+	}
+}
+
+.docs-nav {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
 	.app .docs-menu {
+		padding-top: 0rem;
 		position: relative;
 		height: auto;
 		top: 0px;
@@ -68,6 +94,7 @@ body {
 .app .docs-content {
 	text-align: left;
 	padding: 3rem;
+	min-height: 100vh;
 }
 
 .show-col {
