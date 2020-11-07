@@ -41,7 +41,8 @@ title: "form"
 </div>
 
 
-## Label worked with
+## 라벨 작업
+기본적으로 체크 박스와 단일 선택(Radio) 세로로 쌓이고 ```.form-check```로 적절한 간격으로 배치됩니다.
 <div class="card">
 <div class="card-body">
 <div class="form-check">
@@ -110,8 +111,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </div>
 </div>
 
-
-## Radio worked with
 <div class="card">
 <div class="card-body">
 <div class="form-check">
@@ -224,7 +223,8 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </div>
 </div>
 
-## Form controls
+## 폼(Form) 컨트롤
+```<input>``` , ```<select>``` 및 ```<textarea>```와 같은 텍스트 양식 컨트롤은 ```.form-control``` 클래스로 스타일이 지정됩니다.
 <div class="card">
 <div class="card-body">
 <form>
@@ -280,7 +280,8 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </div>
 </div>
 
-## Sizing
+## 크기 조절(Sizing)
+```.form-control-lg``` ```.form-control-sm```을 이용해 폼(form) 사이즈 조절을 할수 있습니다.
 <div class="card">
 <div class="card-body">
 	<input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
@@ -323,7 +324,8 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 ```
  </div>
 
-## Readonly
+## 읽기 전용
+입력 값의 수정을 방지하려면 ```<input>```에 ```readonly``` 속성을 추가합니다. 읽기 전용 입력은 비활성화 된 입력처럼 더 밝게 표시되지만 표준 커서는 유지됩니다.
 <div class="card">
 <div class="card-body">
 	<input class="form-control" type="text" placeholder="Readonly input here…" readonly>
@@ -335,7 +337,8 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </div>
 </div>
 
-## Readonly plain text
+## 읽기 전용 일반 텍스트
+```<input readonly>``` 요소를 일반 텍스트로 스타일링하려면 ```.form-control-plaintext``` 클래스를 사용하여 기본 양식 필드 스타일을 제거하고 올바른 여백과 패딩을 유지하십시오.
 <div class="card">
 <div class="card-body">
 <form>
@@ -372,7 +375,8 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </div>
 </div>
 
-## Form row
+## 양식 배열(Form row)
+```.row```를 ```.form-row```로 바꿀 수도 있습니다. 이는 기본 배열을 재정의하는 그리드 행의 변형으로 더 조밀한 레이아웃입니다.
 <div class="card">
 <div class="card-body">
 <form>
@@ -474,7 +478,7 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </div>
 </div>
 
-## Form row
+
 <div class="card">
 <div class="card-body">
 <form>
@@ -595,7 +599,8 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </div>
 </div>
 
-## Horizontal form label sizing
+## 수평 양식 라벨 크기
+```.col-form-label-sm``` 또는 ```.col-form-label-lg```를 ```<label>``` 또는 ```<legend>```에 사용하여 사이즈를 조절할수 있습니다.
 <div class="card">
 <div class="card-body">
 <form>
