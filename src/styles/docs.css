@@ -9,7 +9,7 @@ body {
 } */
 
 .app {
-	margin-top: 56px;
+	margin-top: 80px;
 	height: 100%;
 	position: relative;
 }
@@ -32,26 +32,22 @@ body {
 	overflow: auto;
 }
 
-/* 아직 yuri.css 가 동시 col-* 을 지원하지 않음. 차후 지원하면 아래 css 는 제거됨 */
-@media (min-width: 1200px) {
-	.app .docs-menu {
-		flex: 0 0 16.66667%;
-		max-width: 16.66667%;
-	}
-	.app .docs-content {
-		flex: 0 0 83.33333%;
-		max-width: 83.33333%;
-	}
+.app .docs-menu #menus {
+	padding-left: 1rem;
 }
 
 .docs-nav {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
+.docs-nav .navbar-brand {
+	padding: .25rem;
+}
 
 @media (max-width: 768px) {
 	.app .docs-menu {
-		padding-top: 0rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 		position: relative;
 		height: auto;
 		top: 0px;
@@ -63,6 +59,9 @@ body {
 	.app .docs-content {
 		padding-left: 1rem !important;
 		padding-right: 1rem !important;
+	}
+	.docs-nav .navbar-brand {
+		padding: 0rem;
 	}
 }
 .app .docs-menu .menu-head {

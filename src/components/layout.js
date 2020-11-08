@@ -5,9 +5,15 @@ import { useStaticQuery, graphql, Link, withPrefix } from "gatsby"
 
 import Header from "./header"
 import DocsMenu from "./menu"
+import { upperCase } from './util'
 import "../styles/yuri.css"
 import "../styles/docs.css"
 
+function getCurrentMenu(slug) {
+	if (slug === undefined)
+		return '';
+	return upperCase(slug.split('/')[1]) + ' - ' + upperCase(slug.split('/')[2]);
+}
 	
 const Layout = ({ slug, children }) => {
 	const docsMenuMap = useStaticQuery(
@@ -49,10 +55,13 @@ const Layout = ({ slug, children }) => {
       <Header/>
       <div className="app container-fluid">
 		  <div className="row docs">
-			  <div className="col-md-3 docs-menu" id="nav-collapse">
+			  <div className="col-xl-2 col-md-3 docs-menu shadow-sm" id="nav-collapse">
 					<button className="navbar-toggler show-md" type="button" data-target="#menus" data-toggle="collapse">
-						<span className="navbar-toggler-icon"></span>
+						<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
 					</button>
+					<p class="show-md dsp-inline mg-l-1">{getCurrentMenu(slug)}</p>
 					<div id="menus" className="collapse collapse-md">
 					<DocsMenu
 						headMenuName = 'introduction'
@@ -71,7 +80,7 @@ const Layout = ({ slug, children }) => {
 					/>
 					</div>
 			  </div>
-			  <div className="col-md-9 docs-content">
+			  <div className="col-xl-10 col-md-9 docs-content">
 				<main>{children}</main>
 			  </div>
 		  </div>
