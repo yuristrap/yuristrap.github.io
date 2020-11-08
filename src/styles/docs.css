@@ -9,7 +9,7 @@ body {
 } */
 
 .app {
-	margin-top: 80px;
+	margin-top: 5.5rem;
 	height: 100%;
 	position: relative;
 }
@@ -25,9 +25,9 @@ body {
 	border-right-width: 1.2px;
 	border-right-style: solid;
 	border-right-color: #dfd8e3;
-	height: calc(100vh - 72px);
+	height: calc(100vh - 88px);
     position: sticky;
-	top: 72px; 
+	top: 5.5rem; 
 	text-align: left;
 	overflow: auto;
 }
@@ -45,6 +45,9 @@ body {
 }
 
 @media (max-width: 768px) {
+	.app {
+		margin-top: 5rem;
+	}
 	.app .docs-menu {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
