@@ -3,15 +3,16 @@ slug: "/components/list group"
 title: "list group"
 ---
 
-# list group
+# 리스트 그룹
 
-## Active & Disabled items
+## 기본 예시
+가장 기본적인 목록 그룹은 목록 항목과 적절한 클래스가있는 정렬되지 않은 목록입니다. 다음 옵션을 사용하거나 필요에 따라 고유 한 CSS를 사용하여 빌드하십시오.
 <div class="card">
 <div class="card-body">
 <ul class="list-group">
-	<li class="list-group-item ">Cras justo odio</li>
-	<li class="list-group-item disabled">Dapibus ac facilisis in</li>
-	<li class="list-group-item active">Morbi leo risus</li>
+	<li class="list-group-item">Cras justo odio</li>
+	<li class="list-group-item">Dapibus ac facilisis in</li>
+	<li class="list-group-item">Morbi leo risus</li>
 	<li class="list-group-item">Porta ac consectetur ac</li>
 	<li class="list-group-item">Vestibulum at eros</li>
 </ul>
@@ -19,9 +20,9 @@ title: "list group"
 
 ```html
 <ul class="list-group">
-	<li class="list-group-item ">Cras justo odio</li>
-	<li class="list-group-item disabled">Dapibus ac facilisis in</li>
-	<li class="list-group-item active">Morbi leo risus</li>
+	<li class="list-group-item active">Cras justo odio</li>
+	<li class="list-group-item">Dapibus ac facilisis in</li>
+	<li class="list-group-item">Morbi leo risus</li>
 	<li class="list-group-item">Porta ac consectetur ac</li>
 	<li class="list-group-item">Vestibulum at eros</li>
 </ul>
@@ -29,15 +30,66 @@ title: "list group"
 </div>
 </div>
 
-## Links list
+## 활성화된 목록
+```.active```를 ```.list-group-item```에 추가하여 현재 활성 선택을 나타냅니다.
+<div class="card">
+<div class="card-body">
+<ul class="list-group">
+	<li class="list-group-item active">Cras justo odio</li>
+	<li class="list-group-item">Dapibus ac facilisis in</li>
+	<li class="list-group-item">Morbi leo risus</li>
+	<li class="list-group-item">Porta ac consectetur ac</li>
+	<li class="list-group-item">Vestibulum at eros</li>
+</ul>
+</div>
+
+```html
+<ul class="list-group">
+	<li class="list-group-item active">Cras justo odio</li>
+	<li class="list-group-item">Dapibus ac facilisis in</li>
+	<li class="list-group-item">Morbi leo risus</li>
+	<li class="list-group-item">Porta ac consectetur ac</li>
+	<li class="list-group-item">Vestibulum at eros</li>
+</ul>
+```
+</div>
+</div>
+
+## 비활성화 목록
+```.disabled```를 ```.list-group-item```에 추가하여 현재 비활성 선택을 나타냅니다.
+<div class="card">
+<div class="card-body">
+<ul class="list-group">
+	<li class="list-group-item disabled">Cras justo odio</li>
+	<li class="list-group-item">Dapibus ac facilisis in</li>
+	<li class="list-group-item">Morbi leo risus</li>
+	<li class="list-group-item">Porta ac consectetur ac</li>
+	<li class="list-group-item">Vestibulum at eros</li>
+</ul>
+</div>
+
+```html
+<ul class="list-group">
+	<li class="list-group-item disabled">Cras justo odio</li>
+	<li class="list-group-item">Dapibus ac facilisis in</li>
+	<li class="list-group-item">Morbi leo risus</li>
+	<li class="list-group-item">Porta ac consectetur ac</li>
+	<li class="list-group-item">Vestibulum at eros</li>
+</ul>
+```
+</div>
+</div>
+
+## 링크 목록
+```<a>``` 또는 ```<button>```을 사용하여 ```.list-group-item-action```을 추가하여 상호 작용 요소를 비활성화 및 활성 상태로 실행 가능한 목록 그룹 항목을 만듭니다.
 <div class="card">
 <div class="card-body">
 <div class="list-group">
-	<a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
-	<a href="#" class="list-group-item list-group-item-action disabled">Dapibus ac facilisis in</a>
-	<a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-	<a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-	<a href="#" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">Vestibulum at
+	<a href="#" onclick="return false;" class="list-group-item list-group-item-action active">Cras justo odio</a>
+	<a href="#" onclick="return false;" class="list-group-item list-group-item-action disabled">Dapibus ac facilisis in</a>
+	<a href="#" onclick="return false;" class="list-group-item list-group-item-action">Morbi leo risus</a>
+	<a href="#" onclick="return false;" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+	<a href="#" onclick="return false;" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">Vestibulum at
 	eros</a>
 </div>
 
@@ -53,23 +105,25 @@ title: "list group"
 </div>
 </div>
 
-## Button list
+## 버튼 목록
+여기서는 ```.btn``` 클래스를 사용하지 마십시오.
+```<button>```을 사용하면 ```.disabled``` 클래스 대신 ```disabled``` 속성을 사용할 수도 있습니다. ```<a>```는 ```disabled``` 속성을 지원하지 않습니다.
 <div class="card">
 <div class="card-body">
 <div class="list-group">
 	<button type="button" class="list-group-item list-group-item-action active">Cras justo odio</button>
-	<button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+	<button type="button" class="list-group-item list-group-item-action" disabled>Dapibus ac facilisis in</button>
 	<button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
-	<button type="button" class="list-group-item list-group-item-action" disabled>Porta ac consectetur ac</button>
+	<button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
 	<button type="button" class="list-group-item list-group-item-action">Vestibulum at eros</button>
 </div>
 
 ```html
 <div class="list-group">
 	<button type="button" class="list-group-item list-group-item-action active">Cras justo odio</button>
-	<button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+	<button type="button" class="list-group-item list-group-item-action" disabled>Dapibus ac facilisis in</button>
 	<button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
-	<button type="button" class="list-group-item list-group-item-action" disabled>Porta ac consectetur ac</button>
+	<button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
 	<button type="button" class="list-group-item list-group-item-action">Vestibulum at eros</button>
 </div>
 ```
@@ -77,6 +131,7 @@ title: "list group"
 </div>
 
 ## Flush
+```.list-group-flush``` 를 추가하여 일부 테두리와 둥근 모서리를 제거하여 상위 컨테이너 (예 : ```.card```)에서 목록 그룹 항목을 가장자리에서 가장자리까지 렌더링합니다.
 <div class="card">
 <div class="card-body">
 <ul class="list-group list-group-flush">
@@ -100,7 +155,8 @@ title: "list group"
 </div>
 </div>
 
-## Contextual classes
+## 상황별 클래스
+상황별 클래스를 사용하여 배경 및 색상으로 목록 항목의 스타일을 지정합니다.
 <div class="card">
 <div class="card-body">
 <ul class="list-group">
@@ -155,7 +211,8 @@ title: "list group"
 </div>
 </div>
 
-## With badges
+## 배지(Badges)포함
+리스트 그룹 항목에 배지(Badge)를 추가하여 일부 유틸리티의 도움으로 읽지 않은 횟수, 활동 등을 표시합니다.
 <div class="card">
 <div class="card-body">
 <ul class="list-group">

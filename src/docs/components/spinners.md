@@ -3,9 +3,10 @@ slug: "/components/spinners"
 title: "spinners"
 ---
 
-# Spinners
+# 스피너(Spinners)
 
-## Spinner border
+## 테두리 스피너(Spinner border) 
+테두리 스피너는 테두리 색상에 기본 색들을 사용하므로 텍스트 색상 유틸리티로 색상을 사용자 정의할 수 있습니다. 표준 스피너에서 텍스트 색상 유틸리티를 사용할 수 있습니다.
 <div class="card">
 <div class="card-body">
 <div class="spinner-border" role="status"> </div>
@@ -28,10 +29,10 @@ title: "spinners"
 <div class="spinner-border info  " role="status"></div>
 <div class="spinner-border brown" role="status"> </div>
 ```
-
 </div>
 
-## Spinner border alpha
+## 테두리 스피너 배경
+```.alpha``` 클래스를 추가하여 테두리 스피너의 배경을 없앨 수 있습니다.
 <div class="card">
 <div class="card-body">
 <div class="spinner-border alpha" role="status"> </div>
@@ -57,7 +58,8 @@ title: "spinners"
 </div>
 
 
-## Spinner dot
+## 도트 스피너(Spinner dot)
+```.spinner-dot``` 클래스 를 사용해 도트 스피너를 사용할 수 있습니다.
 <div class="card">
 <div class="card-body">
 <div class="spinner-dot" role="status"> </div>
@@ -82,7 +84,8 @@ title: "spinners"
 ```
 </div>
 
-## Spinner border Sizing
+## 테두리 스피너 사이즈 조절
+``` .spinner-border-sm```, ``` .spinner-border-lg```, ``` .spinner-border-xl```속성을 추가해 스피너의 크기를 조절할 수 있습니다.
 <div class="card">
 <div class="card-body">
 <div class="spinner-border spinner-border-sm" role="status"> </div>
@@ -100,7 +103,8 @@ title: "spinners"
 
 </div>
 
-## Spinner dot Sizing
+## 도트 스피너 사이즈 조절
+``` .spinner-dot-sm```, ``` .spinner-dot-lg```, ``` .spinner-dot-xl```속성을 추가해 스피너의 크기를 조절할 수 있습니다.
 <div class="card">
 <div class="card-body">
 <div class="spinner-dot spinner-dot-sm" role="status"> </div>
