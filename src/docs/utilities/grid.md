@@ -15,7 +15,6 @@ title: "그리드"
 최대 960px 의 넓이를 가지며 `992px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
 
 <div class="card">
-<div class="card-body">
 
 ```html
 <body>
@@ -25,14 +24,12 @@ title: "그리드"
 </body>
 ```
 </div>
-</div>
 
 ### Container-fluid
 화면이 꽉차있는 container 입니다.
 어느 환경에서든 항상 좌우 `1rem`의 빈 공간을 남겨둡니다.
 
 <div class="card">
-<div class="card-body">
 
 ```html
 <body>
@@ -42,14 +39,12 @@ title: "그리드"
 </body>
 ```
 </div>
-</div>
 
 ### Container-md
 중간 사이즈의 container 입니다.
 최대 736px 의 넓이를 가지며 `768px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
 
 <div class="card">
-<div class="card-body">
 
 ```html
 <body>
@@ -59,14 +54,12 @@ title: "그리드"
 </body>
 ```
 </div>
-</div>
 
 ### Container-sm
 작은 사이즈의 container 입니다.
 최대 544px 의 넓이를 가지며 `576px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
 
 <div class="card">
-<div class="card-body">
 
 ```html
 <body>
@@ -76,14 +69,12 @@ title: "그리드"
 </body>
 ```
 </div>
-</div>
 
 ### Container-xl
 큰 사이즈의 container 입니다.
 최대 1168px 의 넓이를 가지며 `1200px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
 
 <div class="card">
-<div class="card-body">
 
 ```html
 <body>
@@ -92,7 +83,6 @@ title: "그리드"
 </div>
 </body>
 ```
-</div>
 </div>
 
 
@@ -109,6 +99,7 @@ title: "그리드"
 		col
 	</div>
 </div>
+</div>
 
 ```html
 <div class="row">
@@ -120,7 +111,6 @@ title: "그리드"
 	</div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -143,6 +133,7 @@ title: "그리드"
 		col-6
 	</div>
 </div>
+</div>
 
 ```html
 <div class="row">
@@ -160,7 +151,6 @@ title: "그리드"
 	</div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -188,6 +178,7 @@ title: "그리드"
 		col-lg-5
 	</div>
 </div>
+</div>
 
 ```html
 <div class="row">
@@ -208,5 +199,4 @@ title: "그리드"
 	</div>
 </div>
 ```
-</div>
 </div>

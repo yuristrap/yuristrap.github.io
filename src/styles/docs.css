@@ -98,7 +98,11 @@ body {
 	padding: 3rem;
 	min-height: 100vh;
 }
-
+.language-html,
+.language-css {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
 .show-col {
 	border: 1px solid #C5A4D8;
 	background-color: #EDE7F6;
@@ -109,10 +113,6 @@ body {
 }
 .blog-post-content>h3 {
 	margin-top: 2rem;
-}
-
-.m-b-3 {
-	margin-bottom: 3rem;
 }
 
 

@@ -15,6 +15,7 @@ title: "badge"
 <h4>Example heading <span class="badge badge-primary">New</span></h4>
 <h5>Example heading <span class="badge badge-primary">New</span></h5>
 <h6>Example heading <span class="badge badge-primary">New</span></h6>
+</div>
 
 ```html
 <h1>Example heading <span class="badge badge-primary">New</span></h1>
@@ -24,7 +25,6 @@ title: "badge"
 <h5>Example heading <span class="badge badge-primary">New</span></h5>
 <h6>Example heading <span class="badge badge-primary">New</span></h6>
 ```
-</div>
 </div>
 
 ## 기본 배지
@@ -39,6 +39,7 @@ title: "badge"
 <span class="badge badge-light">Light</span>
 <span class="badge badge-dark">Dark</span>
 <span class="badge badge-brown">Brown</span>
+</div>
 
 ```html
 <span class="badge badge-primary">Primary</span>
@@ -50,7 +51,6 @@ title: "badge"
 <span class="badge badge-dark">Dark</span>
 <span class="badge badge-brown">Brown</span>
 ```
-</div>
 </div>
 
 ## 둥근 배지
@@ -65,6 +65,7 @@ title: "badge"
 <span class="badge badge-pill badge-light">Light</span>
 <span class="badge badge-pill badge-dark">Dark</span>
 <span class="badge badge-pill badge-brown">Brown</span>
+</div>
 
 ```html
 <span class="badge badge-pill badge-primary">Primary</span>
@@ -77,7 +78,6 @@ title: "badge"
 <span class="badge badge-pill badge-brown">Brown</span>
 ```
 </div>
-</div>
 
 
 ## 버튼의 배지
@@ -87,11 +87,11 @@ title: "badge"
 <button type="button" class="btn btn-primary">
   Notifications <span class="badge badge-light">4</span>
 </button>
+</div>
 
 ```html
 <button type="button" class="btn btn-primary">
   Notifications <span class="badge badge-light">4</span>
 </button>
 ```
-</div>
 </div>

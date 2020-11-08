@@ -22,6 +22,7 @@ title: "테두리"
 <div class="border-rounded ex-border">
 	border-rounded
 </div>
+</div>
 
 ```html
 <div class="border-flat ex-border">
@@ -40,5 +41,4 @@ title: "테두리"
 	border-rounded
 </div>
 ```
-</div>
 </div>

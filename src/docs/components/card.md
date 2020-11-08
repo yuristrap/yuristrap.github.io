@@ -46,6 +46,7 @@ title: "card"
 			Example Text
 		</div>
 	</div>
+</div>
 
 ```html
 <div class="card">
@@ -54,7 +55,6 @@ title: "card"
 	</div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -72,6 +72,7 @@ title: "card"
 		<a href="#" class="btn btn-primary">Go somewhere</a>
 	  </div>
 	</div>
+</div>
 
 ```html
 <div class="card" style="width: 30rem;">
@@ -83,7 +84,6 @@ title: "card"
   </div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -105,6 +105,7 @@ title: "card"
 		Footer
 	  </div>
 	</div>
+</div>
 
 
 ```html
@@ -124,7 +125,6 @@ title: "card"
 </div>
 ```
 </div>
-</div>
 
 ## 카드 헤더(Header) 이미지
 <div class="card">
@@ -135,6 +135,7 @@ title: "card"
 		Some quick example text to build on the card title and make up the bulk of the card's content.
 	  </div>
 	</div>
+</div>
 
 ```html
 <div class="card" style="width: 20rem;">
@@ -144,5 +145,4 @@ title: "card"
   </div>
 </div>
 ```
-</div>
 </div>

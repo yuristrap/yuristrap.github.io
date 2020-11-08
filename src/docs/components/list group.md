@@ -28,7 +28,6 @@ title: "list group"
 </ul>
 ```
 </div>
-</div>
 
 ## 활성화된 목록
 ```.active```를 ```.list-group-item```에 추가하여 현재 활성 선택을 나타냅니다.
@@ -52,7 +51,6 @@ title: "list group"
 	<li class="list-group-item">Vestibulum at eros</li>
 </ul>
 ```
-</div>
 </div>
 
 ## 비활성화 목록
@@ -78,7 +76,6 @@ title: "list group"
 </ul>
 ```
 </div>
-</div>
 
 ## 링크 목록
 ```<a>``` 또는 ```<button>```을 사용하여 ```.list-group-item-action```을 추가하여 상호 작용 요소를 비활성화 및 활성 상태로 실행 가능한 목록 그룹 항목을 만듭니다.
@@ -92,6 +89,7 @@ title: "list group"
 	<a href="#" onclick="return false;" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">Vestibulum at
 	eros</a>
 </div>
+</div>
 
 ```html
 <div class="list-group">
@@ -102,7 +100,6 @@ title: "list group"
 	<a href="#" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
 </div>
 ```
-</div>
 </div>
 
 ## 버튼 목록
@@ -117,6 +114,7 @@ title: "list group"
 	<button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
 	<button type="button" class="list-group-item list-group-item-action">Vestibulum at eros</button>
 </div>
+</div>
 
 ```html
 <div class="list-group">
@@ -127,7 +125,6 @@ title: "list group"
 	<button type="button" class="list-group-item list-group-item-action">Vestibulum at eros</button>
 </div>
 ```
-</div>
 </div>
 
 ## Flush
@@ -152,7 +149,6 @@ title: "list group"
 	<li class="list-group-item">Vestibulum at eros</li>
 </ul>
 ```
-</div>
 </div>
 
 ## 상황별 클래스
@@ -183,6 +179,7 @@ title: "list group"
 	<li class="list-group-item list-group-item-dark">This is a dark list group item</li>
 </ul>
 ```
+
 <div class="card-body">
 <div class="list-group">
 	<a href="#" onclick="return false;" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
@@ -208,7 +205,6 @@ title: "list group"
 	<a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
 </div>
 ```
-</div>
 </div>
 
 ## 배지(Badges)포함
@@ -241,5 +237,4 @@ title: "list group"
 	</li>
 </ul>
 ```
-</div>
 </div>

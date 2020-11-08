@@ -7,7 +7,6 @@ title: "디스플레이"
 디스플레이 속성을 변경할때 사용합니다.
 
 <div class="card">
-<div class="card-body">
 
 ```css
 .dsp-none {
@@ -29,5 +28,4 @@ title: "디스플레이"
 	display: flex !important;
 }
 ```
-</div>
 </div>

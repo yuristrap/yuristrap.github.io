@@ -17,13 +17,13 @@ title: "나이트모드"
 <p>나이트모드때 기본적으로 사용되는 폰트입니다.</p>
 <p class="dark-color">나이트모드때 <b>dark-color</b> 로 지정해준 폰트입니다.</p>
 <p class="light-color">나이트모드때 <b>light-color</b> 로 지정해준 폰트입니다.</p>
+</div>
 
 ```html
 <p>I am the default setting of Nigtmode.</p>
 <p class="dark-color">I am the <b>dark-color</b> of Nigtmode.</p>
 <p class="light-color">I am the <b>light-color</b> of Nigtmode.</p>
 ```
-</div>
 </div>
 
 
@@ -35,6 +35,7 @@ title: "나이트모드"
 <p>나이트모드때 기본적으로 사용되는 배경색입니다.</p>
 <p class="dark-bg">나이트모드때 <b>dark-bg</b> 로 지정해준 배경색입니다.</p>
 <p class="light-bg">나이트모드때 <b>light-bg</b> 로 지정해준 배경색입니다.</p>
+</div>
 
 ```html
 <p>I am the default setting of Nigtmode.</p>
@@ -42,7 +43,6 @@ title: "나이트모드"
 <p class="light-bg">I am the <b>light-bg</b> of Nigtmode.</p>
 
 ```
-</div>
 </div>
 
 
@@ -54,13 +54,13 @@ title: "나이트모드"
 <p>나이트모드에 따라 변경되는 폰트색입니다.</p>
 <p class="none-dark-color">나이트모드여도 <b>none-dark-color</b> 는 light 색을 유지합니다.</p>
 <p class="none-light-color">나이트모드여도 <b>none-light-color</b> 는 dark 색을 유지합니다.</p>
+</div>
 
 ```html
 <p>I am the default setting of Nigtmode.</p>
 <p class="none-dark-color">I am the <b>none-dark-color</b> of Nigtmode.</p>
 <p class="none-light-color">I am the <b>none-light-color</b> of Nigtmode.</p>
 ```
-</div>
 </div>
 
 
@@ -72,6 +72,7 @@ title: "나이트모드"
 <p>나이트모드에 따라 변경되는 배경색입니다.</p>
 <p class="none-dark-bg">나이트모드여도 <b>none-dark-bg</b> 는 light 색을 유지합니다.</p>
 <p class="none-light-bg">나이트모드여도 <b>none-light-bg</b> 는 dark 색을 유지합니다.</p>
+</div>
 
 ```html
 <p>I am the default setting of Nigtmode.</p>

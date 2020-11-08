@@ -14,6 +14,7 @@ title: "플로트"
 <p class="float-inherit">Float inherit</p>
 <p class="float-initial">Float initial</p>
 <p class="float-none">Don't float</p>
+</div>
 
 ```css
 .f-inherit { float: inherit !important; }
@@ -22,6 +23,5 @@ title: "플로트"
 .f-initial { float: initial !important; }
 .f-none { float: none !important; }
 ```
-</div>
 </div>
 

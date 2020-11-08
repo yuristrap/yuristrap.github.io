@@ -26,6 +26,7 @@ title: "navbar"
 	  </li>
 	</ul>
 </nav>
+</div>
 
 ```html
 <nav class="navbar">
@@ -46,7 +47,6 @@ title: "navbar"
 	</ul>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -70,6 +70,7 @@ title: "navbar"
 	  </li>
 	</ul>
 </nav>
+</div>
 
 ```html
 <nav class="navbar navbar-light">
@@ -90,7 +91,6 @@ title: "navbar"
 	</ul>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -114,6 +114,7 @@ title: "navbar"
 	  </li>
 	</ul>
 </nav>
+</div>
 
 ```html
 <nav class="navbar navbar-dark">
@@ -134,7 +135,6 @@ title: "navbar"
 	</ul>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -158,6 +158,7 @@ title: "navbar"
 	  </li>
 	</ul>
 </nav>
+</div>
 
 ```html
 <nav class="navbar navbar-primary">
@@ -179,7 +180,6 @@ title: "navbar"
 </nav>
 ```
 </div>
-</div>
 
 
 ## Brand Navbar
@@ -195,6 +195,7 @@ title: "navbar"
 	  </li>
 	</ul>
 </nav>
+</div>
 
 ```html
 <nav class="navbar navbar-light">
@@ -209,7 +210,6 @@ title: "navbar"
 </nav>
 ```
 </div>
-</div>
 
 
 ## Fixed Navbar
@@ -219,13 +219,13 @@ Use `.fixed-top` or `.fixed-bottom`
 <nav class="navbar navbar-light">
   <a class="navbar-brand" href="#">Navbar</a>
 </nav>
+</div>
 
 ```html
 <nav class="navbar navbar-light fixed-top">
   <a class="navbar-brand" href="#">Navbar</a>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -252,6 +252,7 @@ Use `.fixed-top` or `.fixed-bottom`
 		<p>Collapse Text</p>
 	</div>
 </nav>
+</div>
 
 ```html
 <nav class="navbar">
@@ -275,7 +276,6 @@ Use `.fixed-top` or `.fixed-bottom`
 	</div>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -310,6 +310,7 @@ The button to open the target should have `data-toggle="collapse"`.
 		</ul>
 	</div>
 </nav>
+</div>
 
 ```html
 <nav class="navbar navbar-light navbar-md">
@@ -335,7 +336,6 @@ The button to open the target should have `data-toggle="collapse"`.
 	</div>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -364,6 +364,7 @@ Use `.justify-start`, `.justify-end`, `.justify-center`, `.justify-between`, `.j
 		</ul>
 	</div>
 </nav>
+</div>
 
 ```html
 <nav class="navbar navbar-dark">
@@ -386,5 +387,4 @@ Use `.justify-start`, `.justify-end`, `.justify-center`, `.justify-between`, `.j
 	</div>
 </nav>
 ```
-</div>
 </div>

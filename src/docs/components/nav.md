@@ -23,6 +23,7 @@ title: "nav"
 		<a class="nav-link disabled" href="#">Disabled</a>
 	</li>
 </ul>
+</div>
 
 ```html
 
@@ -41,7 +42,6 @@ title: "nav"
 	</li>
 </ul>
 ```
-</div>
 </div>
 
 
@@ -62,6 +62,7 @@ title: "nav"
 	<a class="nav-link disabled" href="#">Disabled</a>
 	</li>
 </ul>
+</div>
 
 ```html
 <ul class="nav justify-center">
@@ -79,7 +80,6 @@ title: "nav"
 	</li>
 </ul>
 ```
-</div>
 </div>
 
 
@@ -100,6 +100,7 @@ title: "nav"
 		<a class="nav-link disabled" href="#">Disabled</a>
 	</li>
 </ul>
+</div>
 
 ```html
 <ul class="nav nav-fill">
@@ -118,7 +119,6 @@ title: "nav"
 </ul>
 ```
 </div>
-</div>
 
 
 ## None nav-item
@@ -130,6 +130,7 @@ title: "nav"
 	<a class="nav-link" href="#">Pricing</a>
 	<a class="nav-link disabled" href="#">Disabled</a>
 </ul>
+</div>
 
 ```html
 <ul class="nav nav-fill">
@@ -139,7 +140,6 @@ title: "nav"
 	<a class="nav-link disabled" href="#">Disabled</a>
 </ul>
 ```
-</div>
 </div>
 
 
@@ -160,6 +160,7 @@ title: "nav"
 		<a class="nav-link disabled" href="#">Disabled</a>
 	</li>
 </ul>
+</div>
 
 ```html
 <ul class="nav f-column">
@@ -177,7 +178,6 @@ title: "nav"
 	</li>
 </ul>
 ```
-</div>
 </div>
 
 
@@ -198,6 +198,7 @@ title: "nav"
 		<a class="nav-link disabled" href="#">Disabled</a>
 	</li>
 </ul>
+</div>
 
 ```html
 <ul class="nav f-column-md">
@@ -215,5 +216,4 @@ title: "nav"
 	</li>
 </ul>
 ```
-</div>
 </div>

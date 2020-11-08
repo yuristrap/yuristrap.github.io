@@ -14,6 +14,7 @@ title: "정렬"
 <span class="align-vertical-bottom">bottom</span>
 <span class="align-vertical-text-top">text-top</span>
 <span class="align-vertical-text-bottom">text-bottom</span>
+</div>
 
 ```html
 <span class="align-vertical-baseline">baseline</span>
@@ -23,7 +24,6 @@ title: "정렬"
 <span class="align-vertical-text-top">text-top</span>
 <span class="align-vertical-text-bottom">text-bottom</span>
 ```
-</div>
 </div>
 
 ## 부모 높이 기준에 의한 정렬
@@ -41,6 +41,7 @@ title: "정렬"
 	</tr>
   </tbody>
 </table>
+</div>
 
 ```html
 <table style="height: 100px;">
@@ -56,5 +57,4 @@ title: "정렬"
   </tbody>
 </table>
 ```
-</div>
 </div>

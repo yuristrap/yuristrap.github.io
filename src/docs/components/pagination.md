@@ -18,6 +18,7 @@ title: "pagination"
 	<li class="page-item"><a class="page-link" href="#">Next</a></li>
   </ul>
 </nav>
+</div>
 
 ```html
 <nav>
@@ -30,7 +31,6 @@ title: "pagination"
   </ul>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -46,6 +46,7 @@ title: "pagination"
 	<li class="page-item"><a class="page-link" href="#">Next</a></li>
   </ul>
 </nav>
+</div>
 
 ```html
 <nav>
@@ -58,7 +59,6 @@ title: "pagination"
   </ul>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -74,6 +74,7 @@ title: "pagination"
 	<li class="page-item"><a class="page-link" href="#">Next</a></li>
   </ul>
 </nav>
+</div>
 
 ```html
 <nav>
@@ -86,7 +87,6 @@ title: "pagination"
   </ul>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -102,6 +102,7 @@ title: "pagination"
 	<li class="page-item"><a class="page-link" href="#"><span aria-hidden="true">&raquo;</span></a></li>
   </ul>
 </nav>
+</div>
 
 ```html
 <nav>
@@ -114,7 +115,6 @@ title: "pagination"
   </ul>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -130,6 +130,7 @@ title: "pagination"
 	<li class="page-item"><a class="page-link" href="#"><span aria-hidden="true">&raquo;</span></a></li>
   </ul>
 </nav>
+</div>
 
 ```html
 <nav>
@@ -142,7 +143,6 @@ title: "pagination"
   </ul>
 </nav>
 ```
-</div>
 </div>
 
 
@@ -158,6 +158,7 @@ title: "pagination"
 	<li class="page-item"><a class="page-link" href="#"><span aria-hidden="true">&raquo;</span></a></li>
   </ul>
 </nav>
+</div>
 
 ```html
 <nav>
@@ -170,5 +171,4 @@ title: "pagination"
   </ul>
 </nav>
 ```
-</div>
 </div>

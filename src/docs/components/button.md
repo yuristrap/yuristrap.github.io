@@ -19,6 +19,7 @@ title: "button"
 <a href="#" onclick="return false;" class="btn btn-brown" role="button">brown</a>
 <a href="#" onclick="return false;" class="btn btn-dark" role="button">dark</a>
 <a href="#" onclick="return false;" class="btn btn-light" role="button">light</a>
+</div>
 
 ```html
 <a href="#" class="btn btn-primary" role="button">primary</a>
@@ -30,7 +31,6 @@ title: "button"
 <a href="#" class="btn btn-dark" role="button">dark</a>
 <a href="#" class="btn btn-light" role="button">light</a>
 ```
-</div>
 </div>
 
 ## 기본 버튼
@@ -45,6 +45,7 @@ title: "button"
 <button type="button" class="btn btn-brown">brown</button>
 <button type="button" class="btn btn-dark">dark</button>
 <button type="button" class="btn btn-light">light</button>
+</div>
 
 ```html
 <button type="button" class="btn btn-primary">primary</button>
@@ -56,7 +57,6 @@ title: "button"
 <button type="button" class="btn btn-dark">dark</button>
 <button type="button" class="btn btn-light">light</button>
 ```
-</div>
 </div>
 
 ## 테두리 버튼
@@ -70,6 +70,7 @@ title: "button"
 <button type="button" class="btn btn-outline-info">info</button>
 <button type="button" class="btn btn-outline-brown">brown</button>
 <button type="button" class="btn btn-outline-dark">dark</button>
+</div>
 
 ```html
 <button type="button" class="btn btn-outline-primary">primary</button>
@@ -81,7 +82,6 @@ title: "button"
 <button type="button" class="btn btn-outline-dark">dark</button>
 ```
 </div>
-</div>
 
 ## 버튼 사이즈
 더 크거나 작은 버튼을 원하시면 ```.btn-lg``` 또는 ```.btn-sm```을 추가하십시오.
@@ -89,12 +89,12 @@ title: "button"
 <div class="card-body">
 <button type="button" class="btn btn-primary btn-sm">Small button</button>
 <button type="button" class="btn btn-primary btn-lg">Large button</button>
+</div>
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">Small button</button>
 <button type="button" class="btn btn-primary btn-lg">Large button</button>
 ```
-</div>
 </div>
 
 ## 블록 버튼
@@ -102,9 +102,9 @@ title: "button"
 <div class="card">
 <div class="card-body">
 <button type="button" class="btn btn-primary btn-block">Block button</button>
+</div>
 
 ```html
 <button type="button" class="btn btn-primary btn-block">Block button</button>
 ```
-</div>
 </div>

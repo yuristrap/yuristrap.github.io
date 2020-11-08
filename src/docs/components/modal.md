@@ -32,6 +32,7 @@ title: "modal"
 	</div>
   </div>
 </div>
+</div>
 
 ```html
 <button class="btn btn-brown" data-toggle="modal" data-target="#exampleModal00">Basic Modal</button>
@@ -53,7 +54,6 @@ title: "modal"
   </div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -81,6 +81,7 @@ title: "modal"
 	</div>
   </div>
 </div>
+</div>
 
 ```html
 <button class="btn btn-brown" data-toggle="modal" data-target="#exampleModal01">Modal bg-disabled</button>
@@ -98,7 +99,6 @@ title: "modal"
   </div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -125,6 +125,7 @@ title: "modal"
 	</div>
   </div>
 </div>
+</div>
 
 ```html
 <button class="btn btn-brown" data-toggle="modal" data-target="#exampleModal02">Modal Footer Align</button>
@@ -146,7 +147,6 @@ title: "modal"
   </div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -175,6 +175,7 @@ title: "modal"
 	</div>
   </div>
 </div>
+</div>
 
 ```html
 <button class="btn btn-brown" data-toggle="modal" data-target="#exampleModal03">Modal Center</button>
@@ -196,7 +197,6 @@ title: "modal"
   </div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -241,6 +241,7 @@ title: "modal"
 	</div>
   </div>
 </div>
+</div>
 
 ```html
 <button class="btn btn-brown" data-toggle="modal" data-target="#exampleModal04">Modal Speed 1000</button>
@@ -278,5 +279,4 @@ title: "modal"
   </div>
 </div>
 ```
-</div>
 </div>

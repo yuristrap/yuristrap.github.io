@@ -8,7 +8,6 @@ title: "플렉스"
 `display` 속성을 `flex`로 사용할때 사용합니다.
 
 <div class="card">
-<div class="card-body">
 
 ```css
 .dsp-flex {
@@ -16,12 +15,10 @@ title: "플렉스"
 }
 ```
 </div>
-</div>
 
 
 ## 플렉스 방향
 <div class="card">
-<div class="card-body">
 
 ```css
 .f-column {
@@ -38,14 +35,12 @@ title: "플렉스"
 }
 ```
 </div>
-</div>
 
 
 ## Fill
 `flex: 1 1 auto` 값이 입력 되어 있는 클래스입니다.
 
 <div class="card">
-<div class="card-body">
 
 ```css
 .f-fill {
@@ -53,14 +48,12 @@ title: "플렉스"
 }
 ```
 </div>
-</div>
 
 
 ## 반응형 row
 반응형으로 flex 방향을 row로 바꿀때 사용합니다.
 
 <div class="card">
-<div class="card-body">
 
 ```css
 .f-row-sm {	flex-direction: row; }
@@ -69,14 +62,12 @@ title: "플렉스"
 .f-row-xl {	flex-direction: row; }
 ```
 </div>
-</div>
 
 
 ## 반응형 col
 반응형으로 flex 방향을 col로 바꿀때 사용합니다.
 
 <div class="card">
-<div class="card-body">
 
 ```css
 .f-column-sm { flex-direction: column; }
@@ -84,7 +75,6 @@ title: "플렉스"
 .f-column-lg { flex-direction: column; }
 .f-column-xl { flex-direction: column; }
 ```
-</div>
 </div>
 
 
@@ -108,6 +98,7 @@ title: "플렉스"
 <div class="dsp-flex justify-around ex-block h-50">
 	<div class="ex-block-sm">item1</div><div class="ex-block-sm">item2</div><div class="ex-block-sm">item3</div>
 </div>
+</div>
 
 ```html
 <div class="dsp-flex justify-start">
@@ -126,7 +117,6 @@ title: "플렉스"
 	<div>item1</div><div>item2</div><div>item3</div>
 </div>
 ```
-</div>
 </div>
 
 
@@ -150,6 +140,7 @@ title: "플렉스"
 <div class="dsp-flex align-items-baseline ex-block h-75">
 	<div class="ex-block-sm">item1</div><div class="ex-block-sm">item2</div><div class="ex-block-sm">item3</div>
 </div>
+</div>
 
 ```html
 <div class="dsp-flex align-items-stretch">
@@ -168,7 +159,6 @@ title: "플렉스"
 	items...
 </div>
 ```
-</div>
 </div>
 
 
@@ -192,6 +182,7 @@ flex 라인을 정렬할때 사용합니다.
 <div class="dsp-flex f-wrap align-content-space-around ex-block h-75">
 	<div class="ex-block-sm">item1</div><div class="ex-block-sm">item2</div><div class="ex-block-sm">item3</div>
 </div>
+</div>
 
 ```html
 <div class="dsp-flex f-wrap align-content-stretch">
@@ -210,7 +201,6 @@ flex 라인을 정렬할때 사용합니다.
 	items...
 </div>
 ```
-</div>
 </div>
 
 
@@ -234,6 +224,7 @@ flex 요소마다 서로 다른 정렬 방식을 입력할때 사용합니다.
 <div class="dsp-flex ex-block h-75">
 	<div class="ex-block-sm">item1</div><div class="align-self-baseline ex-block-sm">item2</div><div class="ex-block-sm">item3</div>
 </div>
+</div>
 
 ```html
 <div class="dsp-flex">
@@ -252,5 +243,4 @@ flex 요소마다 서로 다른 정렬 방식을 입력할때 사용합니다.
 	<div>item1</div><div class="align-self-baseline">item2</div><div>item3</div>
 </div>
 ```
-</div>
 </div>

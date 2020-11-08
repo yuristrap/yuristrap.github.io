@@ -22,6 +22,7 @@ title: "form"
   <input class="form-check-input" type="checkbox" value="" disabled>
   <label class="form-check-label">Disabled checkbox</label>
 </div>
+</div>
 
 ```html
 <div class="form-check">
@@ -37,7 +38,6 @@ title: "form"
   <label class="form-check-label">Disabled checkbox</label>
 </div>
 ```
-</div>
 </div>
 
 
@@ -57,6 +57,7 @@ title: "form"
   <input class="form-check-input" type="checkbox" value="" disabled>
   <label class="form-check-label">Disabled checkbox</label>
 </div>
+</div>
 
 ```html
 <div class="form-check">
@@ -72,7 +73,6 @@ title: "form"
   <label class="form-check-label">Disabled checkbox</label>
 </div>
 ```
-</div>
 </div>
 
 
@@ -108,10 +108,7 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
   <label class="form-check-label">Disabled radio</label>
 </div>
 ```
-</div>
-</div>
 
-<div class="card">
 <div class="card-body">
 <div class="form-check">
   <input class="form-check-input" type="radio" name="exampleRadiosWithLabel" id="exampleRadiosWithLabel1" value="option1" checked>
@@ -141,7 +138,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
   <label class="form-check-label">Disabled radio</label>
 </div>
 ```
-</div>
 </div>
 
 
@@ -177,7 +173,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
   <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
 </div>
 ```
-</div>
 </div>
 
 ## 폼(Form) 그룹
@@ -220,7 +215,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </form>
 
 ```
-</div>
 </div>
 
 ## 폼(Form) 컨트롤
@@ -278,7 +272,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </form>
 ```
 </div>
-</div>
 
 ## 크기 조절(Sizing)
 ```.form-control-lg``` ```.form-control-sm```을 이용해 폼(form) 사이즈 조절을 할수 있습니다.
@@ -295,6 +288,7 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
 ```
 </div>
+
 </br>
 
 <div class="card">
@@ -322,7 +316,7 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
   </select>
 
 ```
- </div>
+</div>
 
 ## 읽기 전용
 입력 값의 수정을 방지하려면 ```<input>```에 ```readonly``` 속성을 추가합니다. 읽기 전용 입력은 비활성화 된 입력처럼 더 밝게 표시되지만 표준 커서는 유지됩니다.
@@ -334,7 +328,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 ```html
   <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
 ```
-</div>
 </div>
 
 ## 읽기 전용 일반 텍스트
@@ -355,6 +348,7 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 </div>
 </div>
 </form>
+</div>
 
 ```html
 <form>
@@ -372,7 +366,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 	</div>
 </form>
 ```
-</div>
 </div>
 
 ## 양식 배열(Form row)
@@ -475,7 +468,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 	<button type="submit" class="btn btn-primary">Sign in</button>
 </form>
 ```
-</div>
 </div>
 
 
@@ -597,7 +589,6 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 ```
 
 </div>
-</div>
 
 ## 수평 양식 라벨 크기
 ```.col-form-label-sm``` 또는 ```.col-form-label-lg```를 ```<label>``` 또는 ```<legend>```에 사용하여 사이즈를 조절할수 있습니다.
@@ -647,5 +638,4 @@ Radio는 여러 옵션 중에서 하나를 선택하기위한 것입니다.
 	</div>
 </form>
 ```
-</div>
 </div>

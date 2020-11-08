@@ -16,6 +16,7 @@ title: "알림"
 <div class="notice-box" id="exampleNoticeBox00" data-speed="4000">
 	This is Notice-Box
 </div>
+</div>
 
 ```html
 <button class="btn btn-brown" data-toggle="notice" data-target="#exampleNoticeBox00">Notice-Box</button>
@@ -23,7 +24,6 @@ title: "알림"
 	This is Notice-Box
 </div>
 ```
-</div>
 </div>
 
 ## 애니메이션 속도 조정
@@ -36,6 +36,7 @@ default 값은 4000, 즉 4초를 가지고 있습니다.
 <div class="notice-box" id="exampleNoticeBox01" data-speed="1000">
 	This is Notice-Box
 </div>
+</div>
 
 ```html
 <button class="btn btn-brown" data-toggle="notice" data-target="#exampleNoticeBox01">Notice-Box 1000</button>
@@ -43,5 +44,4 @@ default 값은 4000, 즉 4초를 가지고 있습니다.
 	This is Notice-Box
 </div>
 ```
-</div>
 </div>
