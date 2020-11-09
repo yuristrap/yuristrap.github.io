@@ -92,10 +92,10 @@ title: "그리드"
 <div class="card">
 <div class="card-body">
 <div class="row">
-	<div class="col show-col">
+	<div class="col show-col none-light-color">
 		col
 	</div>
-	<div class="col show-col">
+	<div class="col show-col none-light-color">
 		col
 	</div>
 </div>
@@ -120,16 +120,16 @@ title: "그리드"
 <div class="card">
 <div class="card-body">
 <div class="row">
-	<div class="col-3 show-col">
+	<div class="col-3 show-col none-light-color">
 		col-3
 	</div>
-	<div class="col-9 show-col">
+	<div class="col-9 show-col none-light-color">
 		col-9
 	</div>
-	<div class="col-6 show-col">
+	<div class="col-6 show-col none-light-color">
 		col-6
 	</div>
-	<div class="col-6 show-col">
+	<div class="col-6 show-col none-light-color">
 		col-6
 	</div>
 </div>
@@ -162,19 +162,19 @@ title: "그리드"
 <div class="card">
 <div class="card-body">
 <div class="row">
-	<div class="col-md-3 show-col">
+	<div class="col-md-3 show-col none-light-color">
 		col-md-3
 	</div>
-	<div class="col-md-9 show-col">
+	<div class="col-md-9 show-col none-light-color">
 		col-md-9
 	</div>
-	<div class="col-sm-4 show-col">
+	<div class="col-sm-4 show-col none-light-color">
 		col-sm-4
 	</div>
-	<div class="col-md-3 show-col">
+	<div class="col-md-3 show-col none-light-color">
 		col-md-3
 	</div>
-	<div class="col-lg-5 show-col">
+	<div class="col-lg-5 show-col none-light-color">
 		col-lg-5
 	</div>
 </div>
@@ -199,4 +199,32 @@ title: "그리드"
 	</div>
 </div>
 ```
+</div>
+
+## Multiple Col
+반응형으로 작동되는 col 을 다중으로 이용할 수 있습니다.
+
+<div class="card">
+<div class="card-body">
+<div class="row">
+	<div class="col-lg-3 col-md-5 col-sm-6 none-light-color show-col">
+		col-lg-3 col-md-5 col-sm-6
+	</div>
+	<div class="col-lg-9 col-md-7 col-sm-6 none-light-color show-col">
+		col-lg-10 col-md-9 col-sm-5
+	</div>
+</div>
+</div>
+
+```html
+<div class="row">
+	<div class="col-lg-3 col-md-5 col-sm-6">
+		col-lg-3 col-md-5 col-sm-6
+	</div>
+	<div class="col-lg-9 col-md-7 col-sm-6">
+		col-lg-9 col-md-7 col-sm-6
+	</div>
+</div>
+```
+</div>
 </div>
