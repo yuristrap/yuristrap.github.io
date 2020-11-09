@@ -55,8 +55,7 @@ class NightCheckbox extends React.Component {
              onClick={this.tick}
              defaultChecked={this.state.checkBox}
            />
-			<label className="form-switch-label brown size-md" htmlFor="switch"></label>
-		   {this.state.checkedMsg}
+			<label className="form-switch-label dark size-md" htmlFor="switch"></label>
          </div>
        );
      }

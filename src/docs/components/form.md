@@ -3,7 +3,7 @@ slug: "/components/form"
 title: "form"
 ---
 
-# 폼(Form)
+# 폼 (Form)
 다양한 폼(Form) 만들기 위한 스타일, 레이아웃 옵션 및 사용자 지정 구성 요소에 대한 예제 및 사용법 입니다.
 
 ## 체크 박스 (Check box)

@@ -3,7 +3,7 @@ slug: "/utilities/flex"
 title: "플렉스"
 ---
 
-# 플렉스
+# 플렉스 (flex)
 
 `display` 속성을 `flex`로 사용할때 사용합니다.
 

@@ -3,7 +3,7 @@ slug: "/utilities/align"
 title: "정렬"
 ---
 
-# 정렬
+# 정렬 (align)
 
 ## 세로 정렬
 <div class="card">

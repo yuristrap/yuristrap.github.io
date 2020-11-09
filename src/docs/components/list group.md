@@ -3,7 +3,7 @@ slug: "/components/list group"
 title: "list group"
 ---
 
-# 리스트 그룹
+# 리스트 그룹 (list-group)
 
 ## 기본 예시
 가장 기본적인 목록 그룹은 목록 항목과 적절한 클래스가있는 정렬되지 않은 목록입니다. 다음 옵션을 사용하거나 필요에 따라 고유 한 CSS를 사용하여 빌드하십시오.

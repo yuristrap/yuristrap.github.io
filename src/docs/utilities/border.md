@@ -3,7 +3,7 @@ slug: "/utilities/border"
 title: "테두리"
 ---
 
-# 테두리
+# 테두리 (border)
 
 <div class="card">
 <div class="card-body">

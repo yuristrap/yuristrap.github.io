@@ -3,7 +3,7 @@ slug: "/components/spinners"
 title: "spinners"
 ---
 
-# 스피너(Spinners)
+# 스피너 (Spinners)
 
 ## 테두리 스피너(Spinner border) 
 테두리 스피너는 테두리 색상에 기본 색들을 사용하므로 텍스트 색상 유틸리티로 색상을 사용자 정의할 수 있습니다. 표준 스피너에서 텍스트 색상 유틸리티를 사용할 수 있습니다.

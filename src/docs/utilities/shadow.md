@@ -3,7 +3,7 @@ slug: "/utilities/shadow"
 title: "그림자"
 ---
 
-# 그림자
+# 그림자 (shadow)
 `box-shadow` 효과를 주어 요소를 돋보아 보이게 하거나 분리 시켜줄때 주로 사용합니다.
 
 ## 그림자 크기

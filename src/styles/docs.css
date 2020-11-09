@@ -76,7 +76,7 @@ body {
 }
 .app .docs-menu .menu-list {
 	margin-top: .25rem;
-	padding-left: .5rem;
+	padding-left: 1rem;
 	list-style-type: none;
 }
 .app .docs-menu .menu-list .menu-item {
@@ -90,6 +90,7 @@ body {
 }
 .app .docs-menu .menu-list .menu-item.active a {
 	/* color: #212529; */
+	opacity: .8;
 	color: var(--textColor);
 	font-weight: 400;
 }
@@ -131,6 +132,7 @@ body {
 	margin-top: 1rem;
 }
 .ex-block-sm {
+	color: black !important;
 	padding: .75rem 1rem;
 	border: 1px solid #8863d85e;
 }

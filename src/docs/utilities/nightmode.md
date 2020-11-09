@@ -3,8 +3,7 @@ slug: "/utilities/nightmode"
 title: "나이트모드"
 ---
 
-# 나이트모드
-
+# 나이트모드 (nightmode)
 
 ## 변환하기
 고정된 Navbar 에 있는 나이트모드 스위치 버튼을 눌러주세요.

@@ -3,7 +3,7 @@ slug: "/components/modal"
 title: "modal"
 ---
 
-# 모달(modal)
+# 모달 (modal)
 화면에 새 레이어를 위에 두고 기존 레이어에 피해를 주지 않는 창을 띄울때 사용합니다.
 
 ## 기본 모달

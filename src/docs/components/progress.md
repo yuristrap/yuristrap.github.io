@@ -3,7 +3,7 @@ slug: "/components/progress"
 title: "progress"
 ---
 
-# 진행률 구성(Progress)
+# 진행률 구성 (Progress)
 
 ## 기본 진행률 표시
 진행률 구성 요소는 두 개의 HTML 요소, 너비를 설정하는 일부 CSS 및 몇 가지 속성으로 빌드됩니다. HTML5 ```<progress>``` 태그를 사용하지 않으므로 진행률 표시 줄을 쌓고 애니메이션을 적용하고 그 위에 텍스트 레이블을 배치 할 수 있습니다.

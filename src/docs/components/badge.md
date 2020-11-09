@@ -3,7 +3,7 @@ slug: "/components/badge"
 title: "badge"
 ---
 
-# 배지(badge)
+# 배지 (badge)
 
 ## 배지 예시
 배지는 상대적인 글꼴 크기 및 ```em``` 단위를 사용하여 바로 상위 요소의 크기와 일치하도록 크기를 조정합니다.

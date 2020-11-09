@@ -4,7 +4,7 @@ title: "scrollspy"
 ---
 
 
-# scrollspy
+# 스크롤스파이 (scrollspy)
 특정 구역으로 이동, 혹은 해당 구역임을 추적하는 기능입니다.
 
 ## 스크롤 가능한 요소에서 사용할때

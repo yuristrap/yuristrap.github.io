@@ -3,7 +3,7 @@ slug: "/utilities/float"
 title: "플로트"
 ---
 
-# 플로트
+# 플로트 (float)
 
 <div class="card">
 <div class="card-body">
