@@ -108,3 +108,34 @@ title: "button"
 <button type="button" class="btn btn-primary btn-block">Block button</button>
 ```
 </div>
+
+## 버튼 잠그기
+버튼을 이용하지 못하게 잠글때는 `.disabled` 클래스 혹은 `disabled` 속성을 이용합니다.
+
+`.disabled` 클래스는 focus 에 잡히기 때문에 완전한 잠금을 이용할땐 속성을, 일시적인 잠금일때는 클래스 사용을 권장합니다.
+
+<div class="card">
+<div class="card-body">
+<button type="button" class="btn btn-primary disabled">primary</button>
+<button type="button" class="btn btn-success disabled">success</button>
+<button type="button" class="btn btn-outline-primary disabled">primary</button>
+<button type="button" class="btn btn-outline-success disabled">success</button>
+<hr/>
+<button type="button" class="btn btn-warning" disabled>warning</button>
+<button type="button" class="btn btn-danger" disabled>danger</button>
+<button type="button" class="btn btn-outline-warning" disabled>warning</button>
+<button type="button" class="btn btn-outline-danger" disabled>danger</button>
+</div>
+
+```html
+<button type="button" class="btn btn-primary disabled">primary</button>
+<button type="button" class="btn btn-success disabled">success</button>
+<button type="button" class="btn btn-outline-primary disabled">primary</button>
+<button type="button" class="btn btn-outline-success disabled">success</button>
+<hr/>
+<button type="button" class="btn btn-warning" disabled>warning</button>
+<button type="button" class="btn btn-danger" disabled>danger</button>
+<button type="button" class="btn btn-outline-warning" disabled>warning</button>
+<button type="button" class="btn btn-outline-danger" disabled>danger</button>
+```
+</div>
