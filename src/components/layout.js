@@ -56,12 +56,21 @@ const Layout = ({ slug, children }) => {
       <div className="app container-fluid">
 		  <div className="row docs">
 			  <div className="col-xl-2 col-md-3 docs-menu shadow-sm" id="nav-collapse">
-					<button className="navbar-toggler show-md" type="button" data-target="#menus" data-toggle="collapse">
-						<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-						</svg>
-					</button>
-					<p class="show-md dsp-inline mg-l-1">{getCurrentMenu(slug)}</p>
+					<div class="dsp-flex justify-between">
+						<div>
+							<button className="navbar-toggler show-md" type="button" data-target="#menus" data-toggle="collapse">
+								<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+								</svg>
+							</button>
+							<p class="show-md dsp-inline mg-l-1 mg-b-0" style={{ lineHeight: '2rem' }}>{getCurrentMenu(slug)}</p>
+						</div>
+						<div class="form-group mg-b-0 show-md">
+							<select class="form-control mg-b-0">
+								<option selected>v1.0.0</option>
+							</select>
+						</div>
+					</div>
 					<div id="menus" className="collapse collapse-md">
 					<DocsMenu
 						headMenuName = 'introduction'
