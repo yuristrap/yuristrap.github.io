@@ -17,7 +17,7 @@ title: "플렉스"
 </div>
 
 
-## 플렉스 방향
+## 플렉스 방향<a id="direction"></a>
 <div class="card">
 
 ```css
@@ -64,7 +64,7 @@ title: "플렉스"
 </div>
 
 
-## 반응형 col
+## 반응형 col<a id="responsive-col"></a>
 반응형으로 flex 방향을 col로 바꿀때 사용합니다.
 
 <div class="card">
@@ -78,7 +78,8 @@ title: "플렉스"
 </div>
 
 
-## Justify
+## Justify<a id="justify"></a>
+
 요소들의 수평 방향 정렬을 정할때 사용합니다.
 
 <div class="card">
