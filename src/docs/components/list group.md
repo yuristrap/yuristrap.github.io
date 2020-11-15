@@ -156,7 +156,6 @@ title: "리스트 그룹"
 <div class="card">
 <div class="card-body">
 <ul class="list-group">
-	<li class="list-group-item">Dapibus ac facilisis in</li>
 	<li class="list-group-item list-group-item-primary">This is a primary list group item</li>
 	<li class="list-group-item list-group-item-success">This is a success list group item</li>
 	<li class="list-group-item list-group-item-danger">This is a danger list group item</li>
@@ -169,7 +168,6 @@ title: "리스트 그룹"
 
 ```html
 <ul class="list-group">
-	<li class="list-group-item">Dapibus ac facilisis in</li>
 	<li class="list-group-item list-group-item-primary">This is a primary list group item</li>
 	<li class="list-group-item list-group-item-success">This is a success list group item</li>
 	<li class="list-group-item list-group-item-danger">This is a danger list group item</li>
@@ -182,7 +180,6 @@ title: "리스트 그룹"
 
 <div class="card-body">
 <div class="list-group">
-	<a href="#" onclick="return false;" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
 	<a href="#" onclick="return false;" class="list-group-item list-group-item-action list-group-item-primary">This is a primary list group item</a>
 	<a href="#" onclick="return false;" class="list-group-item list-group-item-action list-group-item-success">This is a success list group item</a>
 	<a href="#" onclick="return false;" class="list-group-item list-group-item-action list-group-item-danger">This is a danger list group item</a>
@@ -195,7 +192,6 @@ title: "리스트 그룹"
 
 ```html
 <div class="list-group">
-	<a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
 	<a href="#" class="list-group-item list-group-item-action list-group-item-primary">This is a primary list group item</a>
 	<a href="#" class="list-group-item list-group-item-action list-group-item-success">This is a success list group item</a>
 	<a href="#" class="list-group-item list-group-item-action list-group-item-danger">This is a danger list group item</a>
