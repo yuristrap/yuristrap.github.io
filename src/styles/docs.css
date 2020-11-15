@@ -97,6 +97,9 @@ body {
 .app .docs-menu .menu-list .menu-item a:hover {
 	color: #595a5c;
 }
+.app .docs-menu .menu-list .menu-item.active a {
+	color: var(--textColor);
+}
 .app .docs-content {
 	text-align: left;
 	padding: 3rem;

@@ -58,3 +58,20 @@ title: "정렬"
 </table>
 ```
 </div>
+
+## 문자 가로 정렬
+<div class="card">
+<div class="card-body">
+<p class="text-center">text-center</p>
+<p class="text-left">text-left</p>
+<p class="text-right">text-right</p>
+<p class="text-justify">text-justify</p>
+</div>
+
+```html
+<p class="text-center">text-center</p>
+<p class="text-left">text-left</p>
+<p class="text-right">text-right</p>
+<p class="text-justify">text-justify</p>
+```
+</div>
