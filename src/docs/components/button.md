@@ -1,6 +1,6 @@
 ---
 slug: "/components/button"
-title: "button"
+title: "버튼"
 ---
 
 # 버튼 (button)

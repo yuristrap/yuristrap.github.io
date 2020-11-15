@@ -1,6 +1,6 @@
 ---
 slug: "/components/list group"
-title: "list group"
+title: "리스트 그룹"
 ---
 
 # 리스트 그룹 (list-group)

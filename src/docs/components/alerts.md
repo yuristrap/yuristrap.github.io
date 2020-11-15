@@ -1,6 +1,6 @@
 ---
 slug: "/components/alerts"
-title: "alerts"
+title: "알림&경고"
 ---
 
 # 알림&경고 (alerts)

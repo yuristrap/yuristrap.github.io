@@ -1,6 +1,6 @@
 ---
 slug: "/components/spinners"
-title: "spinners"
+title: "스피너"
 ---
 
 # 스피너 (Spinners)

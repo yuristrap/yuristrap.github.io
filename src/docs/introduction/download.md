@@ -5,17 +5,29 @@ title: "다운로드"
 
 # CDN
 
-## 정식버전 CDN
+편하게 주소를 사용하는 것도 좋지만, Yuri는 파일을 직접 **다운받아서 사용**을 권장합니다.
+
+## 최신 버전 CDN
+#### CSS
 ```
-준비중입니다.
+https://yuristrap-cdn.vercel.app/0.1.0/css/yuri.css
+```
+#### JS
+```
+https://yuristrap-cdn.vercel.app/0.1.0/js/yuri.js
 ```
 
-## 최신 개발버전 CDN
-### CSS
+
+구버전 보기 > [version](/introduction/version)
+
+
+
+## 개발중 버전 CDN
+#### CSS
 ```
 https://yuristrap.netlify.app/dist/css/yuri.css
 ```
-### JS
+#### JS
 ```
 https://yuristrap.netlify.app/js/yuri.js
 ```
@@ -39,6 +51,8 @@ https://yuristrap.netlify.app/js/yuri.js
 
 ## 개발버전 다운로드
 ```
-준비중입니다.
+https://github.com/yuristrap/yuristrap.git
 ```
+
+[Yuristrap - Yuristrap](https://github.com/yuristrap/yuristrap) 에서 다운받을 수 있습니다.
 

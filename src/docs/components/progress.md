@@ -1,6 +1,6 @@
 ---
 slug: "/components/progress"
-title: "progress"
+title: "진행률 구성"
 ---
 
 # 진행률 구성 (Progress)
@@ -17,17 +17,16 @@ title: "progress"
 
 <div class="card">
 <div class="card-body">
-
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar" role="progressbar"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar" role="progressbar" style="width: 25%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar" role="progressbar" style="width: 50%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar" role="progressbar" style="width: 75%"></div>
 </div>
 <div class="progress">
@@ -58,19 +57,19 @@ title: "progress"
 진행률 표시 줄의 배경색 위에 CSS 그라데이션을 통해 스트라이프를 적용하려면 ```.progress-bar-striped```를 ```.progress-bar```에 추가합니다.
 <div class="card">
 <div class="card-body">
-<div class="progress">
+<div class="progress mg-b-1">
 <div class="progress-bar progress-striped">
 </div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
 <div class="progress-bar progress-striped" style="width: 25%">
 </div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
 <div class="progress-bar progress-striped" style="width: 50%">
 </div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
 <div class="progress-bar progress-striped" style="width: 75%">
 </div>
 </div>
@@ -103,7 +102,7 @@ title: "progress"
 ```.progress-bar``` 내에 텍스트를 배치하여 진행률 표시 줄에 라벨을 추가합니다.
 <div class="card">
 <div class="card-body">
-<div class="progress">
+<div class="progress mg-b-1">
 <div class="progress-bar" style="width: 60%;">
 	60%
 </div>
@@ -133,19 +132,19 @@ title: "progress"
 백그라운드 유틸리티 클래스를 사용하여 개별 진행률 표시 줄의 모양을 변경합니다.
 <div class="card">
 <div class="card-body">
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar" role="progressbar" style="width: 20%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar success" role="progressbar" style="width: 35%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar warning" role="progressbar" style="width: 50%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar danger" role="progressbar" style="width: 70%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar info" role="progressbar" style="width: 90%"></div>
 </div>
 <div class="progress">
@@ -174,25 +173,25 @@ title: "progress"
 </div>
 ```
 <div class="card-body">
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar progress-striped" role="progressbar" style="width: 15%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar progress-striped success" role="progressbar" style="width: 25%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar progress-striped warning" role="progressbar" style="width: 40%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar progress-striped danger" role="progressbar" style="width: 55%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar progress-striped info" role="progressbar" style="width: 70%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar progress-striped brown" role="progressbar" style="width: 85%"></div>
 </div>
-<div class="progress">
+<div class="progress mg-b-1">
   <div class="progress-bar progress-striped primary" role="progressbar" style="width: 100%"></div>
 </div>
 </div>
@@ -223,7 +222,7 @@ title: "progress"
 ```.progress-filled``` 를 ```.progress```에 추가하여 진행률 표시를 채울수 있습니다.
 <div class="card">
 <div class="card-body">
-<div class="progress progress-filled ">
+<div class="progress progress-filled mg-b-1">
 	<div class="progress-bar" style="width: 60%;"></div>
 </div>
 <div class="progress progress-filled ">
@@ -245,7 +244,7 @@ title: "progress"
 ```.progress-bar```에  ```.progress-moved```를 추가하여 진행률 표시 애니메이션을 적용시킬 수 있습니다.
 <div class="card">
 <div class="card-body">
-<div class="progress">
+<div class="progress mg-b-1">
 	<div class="progress-bar progress-moved" style="width: 60%;"></div>
 </div>
 <div class="progress">

@@ -1,6 +1,6 @@
 ---
 slug: "/components/badge"
-title: "badge"
+title: "배지"
 ---
 
 # 배지 (badge)

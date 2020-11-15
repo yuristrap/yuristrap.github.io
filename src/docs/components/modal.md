@@ -1,6 +1,6 @@
 ---
 slug: "/components/modal"
-title: "modal"
+title: "모달"
 ---
 
 # 모달 (modal)

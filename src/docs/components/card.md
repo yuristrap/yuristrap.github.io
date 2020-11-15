@@ -1,6 +1,6 @@
 ---
 slug: "/components/card"
-title: "card"
+title: "카드"
 ---
 
 

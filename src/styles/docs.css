@@ -94,6 +94,9 @@ body {
 	color: var(--textColor);
 	font-weight: 400;
 }
+.app .docs-menu .menu-list .menu-item a:hover {
+	color: #595a5c;
+}
 .app .docs-content {
 	text-align: left;
 	padding: 3rem;

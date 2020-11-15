@@ -1,6 +1,6 @@
 ---
 slug: "/components/form"
-title: "form"
+title: "폼"
 ---
 
 # 폼 (Form)

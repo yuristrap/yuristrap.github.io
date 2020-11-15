@@ -1,5 +1,5 @@
 ---
-slug: "/components/notice"
+slug: "/components/notice-box"
 title: "알림"
 ---
 
