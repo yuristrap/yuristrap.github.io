@@ -15,7 +15,7 @@ class DocsMenu extends React.Component {
 	render() {
 		return (
 			<>
-				<Link to={'/' + this.props.headMenuName + '/' + this.props.menus[0].name} className="menu-head">
+				<Link to={'/' + this.props.version + '/' + this.props.headMenuName + '/' + this.props.menus[0].name} className="menu-head">
 					{upperCase(this.props.headMenuName)}
 					<img className="f-right" src="https://systemuicons.com/images/icons/chevron_down.svg"/>
 				</Link>
@@ -24,7 +24,7 @@ class DocsMenu extends React.Component {
 						let path = '/' + this.props.headMenuName + '/' + menu.name;
 						return (
 							<li className={"menu-item " + ((this.props.slug === path) ? 'active' : '')} key={idx}>
-								<Link to={path}>
+								<Link to={'/' + this.props.version + path}>
 									{menu.name}
 								</Link>
 							</li>

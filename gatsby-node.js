@@ -16,6 +16,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         edges {
           node {
             frontmatter {
+              version
               slug
             }
           }
@@ -30,11 +31,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
-      path: node.frontmatter.slug,
+      path: '/' + node.frontmatter.version + node.frontmatter.slug,
       component: blogPostTemplate,
       context: {
+        version: node.frontmatter.version,
         // additional data can be passed via context
         slug: node.frontmatter.slug,
+        // GraphQL Relative Directory path,  'version/menuName'
+        vIntroduction: `v1.0/introduction`,
+        vUtilities: `v1.0/utilities`,
+        vComponents: `v1.0/components`,
       },
     })
   })

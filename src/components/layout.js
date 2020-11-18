@@ -5,9 +5,11 @@ import { useStaticQuery, graphql, Link, withPrefix } from "gatsby"
 
 import Header from "./header"
 import DocsMenu from "./menu"
+// import MyImg from "./docsMenu"
 import { upperCase } from './util'
 import "../styles/yuri.css"
 import "../styles/docs.css"
+
 
 function getCurrentMenu(slug) {
 	if (slug === undefined)
@@ -15,25 +17,25 @@ function getCurrentMenu(slug) {
 	return upperCase(slug.split('/')[1]) + ' - ' + upperCase(slug.split('/')[2]);
 }
 	
-const Layout = ({ slug, children }) => {
+const Layout = ({ version='v1.0', slug, children}) => {
 	const docsMenuMap = useStaticQuery(
 		graphql`
 			query {
-			  introduction: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "introduction"}}, sort: {fields: name}) {
+			  introduction: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "v1.0/introduction"}}, sort: {fields: name}) {
 				nodes {
 				  name
 				  headMenuName: relativeDirectory
 				  path: relativePath
 				}
 			  }
-			  utilities: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "utilities"}}, sort: {fields: name}) {
+			  utilities: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "v1.0/utilities"}}, sort: {fields: name}) {
 				nodes {
 				  name
 				  headMenuName: relativeDirectory
 				  path: relativePath
 				}
 			  }
-			  components: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "components"}}, sort: {fields: name}) {
+			  components: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "v1.0/components"}}, sort: {fields: name}) {
 				nodes {
 				  name
 				  headMenuName: relativeDirectory
@@ -41,9 +43,7 @@ const Layout = ({ slug, children }) => {
 				}
 			  }
 			}
-
-		`
-	);
+		`);
 	
   return (
     <>
@@ -72,21 +72,24 @@ const Layout = ({ slug, children }) => {
 						</div>
 					</div>
 					<div id="menus" className="collapse collapse-md">
-					<DocsMenu
-						headMenuName = 'introduction'
-						menus = {docsMenuMap.introduction.nodes}
-						slug = {slug}
-					/>
-					<DocsMenu
-						headMenuName = 'utilities'
-						menus = {docsMenuMap.utilities.nodes}
-						slug = {slug}
-					/>
-					<DocsMenu
-						headMenuName = 'components'
-						menus = {docsMenuMap.components.nodes}
-						slug = {slug}
-					/>
+						<DocsMenu
+							headMenuName = 'introduction'
+							menus = {docsMenuMap.introduction.nodes}
+							slug = {slug}
+							version = {version}
+						/>
+						<DocsMenu
+							headMenuName = 'utilities'
+							menus = {docsMenuMap.utilities.nodes}
+							slug = {slug}
+							version = {version}
+						/>
+						<DocsMenu
+							headMenuName = 'components'
+							menus = {docsMenuMap.components.nodes}
+							slug = {slug}
+							version = {version}
+						/>
 					</div>
 			  </div>
 			  <div className="col-xl-10 col-md-9 docs-content">
@@ -97,6 +100,62 @@ const Layout = ({ slug, children }) => {
     </>
   )
 }
+
+// export const docsQuery = graphql(`
+// 			query DocsQ($vIntroduction: String, $vUtilities: String, $vComponents: String) {
+// 			  introduction: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: $vIntroduction}}, sort: {fields: name}) {
+// 				nodes {
+// 				  name
+// 				  headMenuName: relativeDirectory
+// 				  path: relativePath
+// 				}
+// 			  }
+// 			  utilities: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: $vUtilities}}, sort: {fields: name}) {
+// 				nodes {
+// 				  name
+// 				  headMenuName: relativeDirectory
+// 				  path: relativePath
+// 				}
+// 			  }
+// 			  components: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: $vComponents}}, sort: {fields: name}) {
+// 				nodes {
+// 				  name
+// 				  headMenuName: relativeDirectory
+// 				  path: relativePath
+// 				}
+// 			  }
+// 			}`);
+
+// const MyImg = function () {
+//   function hackTheQuery(vIntroduction, vUtilities, vComponents) {
+//     return `
+//       query {
+// 		  introduction: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "${vIntroduction}"}}, sort: {fields: name}) {
+// 			nodes {
+// 			  name
+// 			  headMenuName: relativeDirectory
+// 			  path: relativePath
+// 			}
+// 		  }
+// 		  utilities: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "${vUtilities}"}}, sort: {fields: name}) {
+// 			nodes {
+// 			  name
+// 			  headMenuName: relativeDirectory
+// 			  path: relativePath
+// 			}
+// 		  }
+// 		  components: allFile(filter: {sourceInstanceName: {eq: "markdown-pages"}, relativeDirectory: {eq: "${vComponents}"}}, sort: {fields: name}) {
+// 			nodes {
+// 			  name
+// 			  headMenuName: relativeDirectory
+// 			  path: relativePath
+// 			}
+// 		  }
+// 		}
+//   `
+//   }
+//   return graphql([hackTheQuery('v1.0/introduction', 'v1.0/introduction', 'v1.0/introduction')])
+// }
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
