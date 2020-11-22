@@ -41,21 +41,6 @@ title: "그리드"
 ```
 </div>
 
-### Container-md
-중간 사이즈의 container 입니다.
-최대 736px 의 넓이를 가지며 `768px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
-
-<div class="card">
-
-```html
-<body>
-<div class="container-md">
-	...
-</div>
-</body>
-```
-</div>
-
 ### Container-sm
 작은 사이즈의 container 입니다.
 최대 544px 의 넓이를 가지며 `576px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
@@ -71,8 +56,38 @@ title: "그리드"
 ```
 </div>
 
-### Container-xl
+### Container-md
+중간 사이즈의 container 입니다.
+최대 736px 의 넓이를 가지며 `768px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
+
+<div class="card">
+
+```html
+<body>
+<div class="container-md">
+	...
+</div>
+</body>
+```
+</div>
+
+### Container-lg
 큰 사이즈의 container 입니다.
+최대 960px 의 넓이를 가지며 `992px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
+
+<div class="card">
+
+```html
+<body>
+<div class="container-lg">
+	...
+</div>
+</body>
+```
+</div>
+
+### Container-xl
+가장 큰 사이즈의 container 입니다.
 최대 1168px 의 넓이를 가지며 `1200px` 미만의 윈도우 사이즈부터 반응형으로 변경됩니다.
 
 <div class="card">
