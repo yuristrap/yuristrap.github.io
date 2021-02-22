@@ -7,7 +7,7 @@ title: "메뉴"
 # 메뉴 (nav)
 기본적인 메뉴 기능을 제작할때 사용합니다.
 
-상단에 띄우는 메인 메뉴 같은 경우는 [navbar](/components/navbar) 가 권장됩니다.
+상단에 띄우는 메인 메뉴 같은 경우는 [navbar](/v1.0/components/navbar) 가 권장됩니다.
 
 ## 기본 메뉴
 메뉴의 기본적인 틀입니다.
@@ -53,7 +53,7 @@ title: "메뉴"
 ## 메뉴 정렬
 메뉴를 정렬할때 `justify-*` 클래스를 통해 방식을 변경할 수 있습니다.
 
-자세한 내용 > [flex - justify](/utilities/flex#justify)
+자세한 내용 > [flex - justify](/v1.0/utilities/flex#justify)
 
 <div class="card">
 <div class="card-body">
@@ -159,7 +159,7 @@ title: "메뉴"
 ## 칼럼 메뉴
 가로로 된 메뉴만 있는것은 아닙니다. `.f-column` 을 통해서 칼럼 형태의 메뉴로 변경할 수 있습니다.
 
-자세한 내용 > [flex - direction](/utilities/flex#direction)
+자세한 내용 > [flex - direction](/v1.0/utilities/flex#direction)
 
 <div class="card">
 <div class="card-body">
@@ -201,7 +201,7 @@ title: "메뉴"
 ## 반응형 칼럼
 칼럼 메뉴를 응용해서 반응형으로 된 메뉴도 만들 수 있습니다.
 
-자세한 내용 > [flex - responsive-col](/utilities/flex#responsive-col)
+자세한 내용 > [flex - responsive-col](/v1.0/utilities/flex#responsive-col)
 
 <div class="card">
 <div class="card-body">

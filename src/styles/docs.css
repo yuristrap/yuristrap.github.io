@@ -122,6 +122,19 @@ body {
 	margin-top: 2rem;
 }
 
+/* To Custom Darkmode */
+html[data-theme='dark'] .navbar.navbar-primary.docs-nav {
+	background-color: #2e2244;
+}
+html[data-theme='dark'] :not(pre) > code[class*="language-"],
+html[data-theme='dark'] pre[class*="language-"] {
+	background-color: #212529;
+}
+html[data-theme='dark'] code[class*="language-"],
+html[data-theme='dark'] pre[class*="language-"] {
+	text-shadow: none;
+	color: white;
+}
 
 /* To example */
 .h-50 {
