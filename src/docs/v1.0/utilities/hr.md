@@ -23,5 +23,6 @@ style에 `--content:"(text)"` , `--text-color: (color)`, `--border-color: (color
 <hr class="hr-style center" style="--content:'</>';"> </hr>
 <hr class="hr-style left" style="--content:'start';"> </hr>
 <hr class="hr-style right" style="--content:'end';"> </hr>
+<hr class="hr-dashed"/>
 ```
 </div>
