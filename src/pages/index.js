@@ -16,9 +16,11 @@ const IndexPage = () => (
 	<h2>최신 버전 CDN</h2>
 	<p>Yuri는 파일을 직접 <strong>다운받아서 사용</strong>을 권장합니다.</p>
 	<h4>CSS</h4>
-	<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">https://yuristrap-cdn.vercel.app/1.0.2/css/yuri.css</code></pre></div>
+	<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">https://yuristrap-cdn.vercel.app/1.0.3/css/yuri.css</code></pre></div>
 	<h4>JS</h4>
-	<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">https://yuristrap-cdn.vercel.app/1.0.2/js/yuri.js</code></pre></div>
+	<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">https://yuristrap-cdn.vercel.app/1.0.3/js/yuri.js</code></pre></div>
+	<h4>Night.JS</h4>
+	<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">https://yuristrap-cdn.vercel.app/1.0.3/js/night.js</code></pre></div>
 	<p>구버전 보기 &gt; <a href="/v1.0/introduction/version">version</a></p>
 	<br/>
 	<br/>

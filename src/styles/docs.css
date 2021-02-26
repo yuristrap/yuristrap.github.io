@@ -24,7 +24,7 @@ body {
 	margin-right: auto;
 	border-right-width: 1.2px;
 	border-right-style: solid;
-	border-right-color: #dfd8e3;
+	border-right-color: #dfd8e363;
 	height: calc(100vh - 88px);
     position: sticky;
 	top: 5.5rem; 
@@ -57,7 +57,7 @@ body {
 		border-right: 0px;
 		border-bottom-width: 1.2px;
 		border-bottom-style: solid;
-		border-bottom-color: #dfd8e3;
+		border-bottom-color: #6819965c;
 	}
 	.app .docs-content {
 		padding-left: 1rem !important;
@@ -135,6 +135,14 @@ html[data-theme='dark'] pre[class*="language-"] {
 	text-shadow: none;
 	color: white;
 }
+html[data-theme='dark'] .show-col {
+	background-color: #996bdd75;
+}
+
+html[data-theme='dark'] .blog-post-content>.card {
+	border-color: #dcdcdc66;
+}
+
 
 /* To example */
 .h-50 {
@@ -142,6 +150,9 @@ html[data-theme='dark'] pre[class*="language-"] {
 }
 .h-75 {
 	height: 75px;
+}
+.w-100 {
+	width: 100px;
 }
 .ex-block {
 	background-color: #EDE7F6;

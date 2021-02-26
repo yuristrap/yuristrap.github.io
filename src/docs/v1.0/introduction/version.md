@@ -6,6 +6,34 @@ title: "버전"
 
 # Yuristrap 의 버전 목록입니다.
 
+## v1.0.3
+.container가 모든 사이즈에 반응형으로 보일 수 있게 변경되었습니다.
+
+### css
+```
+https://yuristrap-cdn.vercel.app/1.0.3/css/yuri.css
+```
+
+### JS
+```
+https://yuristrap-cdn.vercel.app/1.0.3/js/yuri.js
+```
+```
+https://yuristrap-cdn.vercel.app/1.0.3/js/night.js
+```
+
+
+### 변경사항
+- `night.js`가 추가되었습니다. 캐시 데이터를 남겨 night on/off 설정을 저장하고자 할 때 사용됩니다.
+- .form-check-label:before 의 아이콘 이미지가 변경되었습니다. (`\2714` -> `\2713`)
+- 나이트모드때의 배경 색이 변경되었습니다.
+- `.bg-*` 이 추가되었습니다.
+- `.mg-0-auto` 클래스가 추가되었습니다. (margin: 0 auto)
+- 나이트모드시 실행되던 transition 의 속도와 방식이 변경되었습니다. (ease 1000)
+- List-group의 border 색이 나이트모드때 어두워서 안보이던 문제를 해결했습니다.
+
+
+
 ## v1.0.2
 .container가 모든 사이즈에 반응형으로 보일 수 있게 변경되었습니다.
 

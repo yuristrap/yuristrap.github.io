@@ -70,3 +70,19 @@ mg-4
 ```
 </div>
 
+
+## margin 0 auto
+`margin: 0 auto;` 값을 사용하고자 할때 사용합니다.
+
+보통 양옆에 빈 공간을 두고 가운데에 오브젝트를 두기위해 사용됩니다.
+
+<div class="card">
+<div class="card-body">
+<div class="show-col mg-0-auto w-100">mg-0-auto</div>
+</div>
+
+```html
+<div class="show-col mg-0-auto w-100">mg-0-auto</div>
+```
+</div>
+

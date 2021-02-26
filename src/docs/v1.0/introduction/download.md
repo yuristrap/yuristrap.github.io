@@ -11,11 +11,14 @@ title: "다운로드"
 ## 최신 버전 CDN
 #### CSS
 ```
-https://yuristrap-cdn.vercel.app/1.0.2/css/yuri.css
+https://yuristrap-cdn.vercel.app/1.0.3/css/yuri.css
 ```
 #### JS
 ```
-https://yuristrap-cdn.vercel.app/1.0.2/js/yuri.js
+https://yuristrap-cdn.vercel.app/1.0.3/js/yuri.js
+```
+```
+https://yuristrap-cdn.vercel.app/1.0.3/js/night.js
 ```
 
 
