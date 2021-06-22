@@ -23,7 +23,7 @@ const Header = () => (
 			<div class="dsp-flex">
 				<div class="form-group mg-b-0 mg-r-1 hide-md">
 					<select class="form-control mg-b-0">
-						<option selected>v1.0.3</option>
+						<option selected>v1.0.4</option>
 					</select>
 				</div>
 				<NightCheckbox></NightCheckbox>

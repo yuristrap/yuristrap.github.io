@@ -6,8 +6,33 @@ title: "버전"
 
 # Yuristrap 의 버전 목록입니다.
 
+## v1.0.4
+
+### css
+```
+https://yuristrap-cdn.vercel.app/1.0.4/css/yuri.css
+```
+
+### JS
+```
+https://yuristrap-cdn.vercel.app/1.0.4/js/yuri.js
+```
+```
+https://yuristrap-cdn.vercel.app/1.0.4/js/night.js
+```
+
+
+### 변경사항
+- 새로운 색상 `secondary`가 추가되었습니다.
+	- 버튼, 뱃지 등 모든 색상 클래스에 포함되었습니다
+- 이제 `pre`에는 margin-top 값이 0px로 설정됩니다.
+- `.btn`의 기본 배경색이 투명해서 구분이 안가던 점으로 week 색으로 변경되었습니다.
+- 나이트모드때 `.btn`을 찾지 못한점과 hover시 눈에 확띄던 문제가 해결되었습니다.
+- `.alert-link`가 추가되었습니다. `.alert`내에 `a`태그를 사용화는 것과 같은 효과를 가집니다.
+- 내부적으로 코드를 간결하게 변경하였습니다.
+
+
 ## v1.0.3
-.container가 모든 사이즈에 반응형으로 보일 수 있게 변경되었습니다.
 
 ### css
 ```
