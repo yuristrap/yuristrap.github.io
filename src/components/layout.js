@@ -67,7 +67,7 @@ const Layout = ({ version='v1.0', slug, children}) => {
 						</div>
 						<div class="form-group mg-b-0 show-md">
 							<select class="form-control mg-b-0">
-								<option selected>v1.0.3</option>
+								<option selected>v1.0.5</option>
 							</select>
 						</div>
 					</div>

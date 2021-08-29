@@ -6,6 +6,45 @@ title: "버전"
 
 # Yuristrap 의 버전 목록입니다.
 
+
+
+
+
+
+
+## v1.0.5 <div class="badge badge-primary">latest</div>
+
+### css
+```
+https://yuristrap-cdn.vercel.app/1.0.5/css/yuri.css
+```
+
+### JS
+```
+https://yuristrap-cdn.vercel.app/1.0.5/js/yuri.js
+```
+```
+https://yuristrap-cdn.vercel.app/1.0.5/js/night.js
+```
+
+
+### 변경사항
+- `notice-box` 사용시 아래 레이아웃 이벤트를 막던 문제가 해결되었습니다.
+- `bg-transparent` 속성이 추가 되었습니다.
+- `btn-transparent` 속성이 추가 되었습니다.
+- `fixed-100` 속성이 추가 되었습니다.
+- js 파일들의 크기가 이제부터 간결되어 배포됩니다.
+
+
+
+
+<br/>
+
+---
+
+
+
+
 ## v1.0.4
 
 ### css
@@ -30,6 +69,15 @@ https://yuristrap-cdn.vercel.app/1.0.4/js/night.js
 - 나이트모드때 `.btn`을 찾지 못한점과 hover시 눈에 확띄던 문제가 해결되었습니다.
 - `.alert-link`가 추가되었습니다. `.alert`내에 `a`태그를 사용화는 것과 같은 효과를 가집니다.
 - 내부적으로 코드를 간결하게 변경하였습니다.
+
+
+
+
+<br/>
+
+---
+
+
 
 
 ## v1.0.3
@@ -59,6 +107,14 @@ https://yuristrap-cdn.vercel.app/1.0.3/js/night.js
 
 
 
+
+<br/>
+
+---
+
+
+
+
 ## v1.0.2
 .container가 모든 사이즈에 반응형으로 보일 수 있게 변경되었습니다.
 
@@ -79,6 +135,14 @@ https://yuristrap-cdn.vercel.app/1.0.2/js/yuri.js
 - .nav-link 의 padding 값이 .5rem 에서 .5rem 1rem으로 변경되었습니다.
 - 모든 .container 속성의 반응형이 정상적으로 작동됩니다.
 	- .container, .container-xl, .container-lg, .container-md, .container-sm
+
+
+
+
+<br/>
+
+---
+
 
 
 
@@ -105,6 +169,13 @@ https://yuristrap-cdn.vercel.app/1.0.1/js/yuri.js
 
 
 
+<br/>
+
+---
+
+
+
+
 ## v1.0.0
 첫 빌드 버전입니다!
 
@@ -122,6 +193,14 @@ https://yuristrap-cdn.vercel.app/1.0.0/js/yuri.js
 - Navbar active 버그가 해결되었습니다.
 - List-group 의 색이 primary 색으로 변경되었습니다.
 - mg, pd 유틸이 추가되었습니다.
+
+
+
+
+<br/>
+
+---
+
 
 
 

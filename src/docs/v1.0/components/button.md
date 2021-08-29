@@ -5,36 +5,6 @@ title: "버튼"
 ---
 
 # 버튼 (button)
-버튼 태그
-.btn 클래스는 ```<button>``` 요소와 함께 사용하도록 설계되었습니다. 그러나 이러한 클래스는 ```<a>``` 또는 ```<input>``` 요소에서도 사용할 수 있습니다. (일부 브라우저에서는 약간 다른 렌더링을 적용될 수 있음).
-
-현재 페이지 내의 새 페이지 또는 섹션에 연결할 때 사용되는 ```<a>``` 요소에 버튼 클래스를 사용하는 경우 ```<a>``` 태그 속성에 ```role = "button"```을 지정해야 합니다.
-
-<div class="card">
-<div class="card-body">
-<a href="#" onclick="return false;" class="btn btn-primary" role="button">primary</a>
-<a href="#" onclick="return false;" class="btn btn-success" role="button">success</a>
-<a href="#" onclick="return false;" class="btn btn-warning" role="button">warning</a>
-<a href="#" onclick="return false;" class="btn btn-danger" role="button">danger</a>
-<a href="#" onclick="return false;" class="btn btn-info" role="button">info</a>
-<a href="#" onclick="return false;" class="btn btn-brown" role="button">brown</a>
-<a href="#" onclick="return false;" class="btn btn-dark" role="button">dark</a>
-<a href="#" onclick="return false;" class="btn btn-light" role="button">light</a>
-</div>
-
-```html
-<a href="#" class="btn btn-primary" role="button">primary</a>
-<a href="#" class="btn btn-success" role="button">success</a>
-<a href="#" class="btn btn-warning" role="button">warning</a>
-<a href="#" class="btn btn-danger" role="button">danger</a>
-<a href="#" class="btn btn-info" role="button">info</a>
-<a href="#" class="btn btn-brown" role="button">brown</a>
-<a href="#" class="btn btn-dark" role="button">dark</a>
-<a href="#" class="btn btn-light" role="button">light</a>
-```
-</div>
-
-## 기본 버튼
 유리 스트랩에는 사전 정의된 여러 버튼 스타일이 포함되어 있으며, 각 스타일은 고유한 의미를 제공하며 더 많은 제어를 위해 몇 가지 추가 기능이 제공됩니다.
 <div class="card">
 <div class="card-body">
@@ -42,6 +12,7 @@ title: "버튼"
 <button type="button" class="btn btn-success">success</button>
 <button type="button" class="btn btn-warning">warning</button>
 <button type="button" class="btn btn-danger">danger</button>
+<button type="button" class="btn btn-secondary">secondary</button>
 <button type="button" class="btn btn-info">info</button>
 <button type="button" class="btn btn-brown">brown</button>
 <button type="button" class="btn btn-dark">dark</button>
@@ -53,10 +24,41 @@ title: "버튼"
 <button type="button" class="btn btn-success">success</button>
 <button type="button" class="btn btn-warning">warning</button>
 <button type="button" class="btn btn-danger">danger</button>
+<button type="button" class="btn btn-secondary">secondary</button>
 <button type="button" class="btn btn-info">info</button>
 <button type="button" class="btn btn-brown">brown</button>
 <button type="button" class="btn btn-dark">dark</button>
 <button type="button" class="btn btn-light">light</button>
+```
+</div>
+
+## a 버튼
+.btn 클래스는 ```<button>``` 요소와 함께 사용하도록 설계되었습니다. 그러나 이러한 클래스는 ```<a>``` 또는 ```<input>``` 요소에서도 사용할 수 있습니다. (일부 브라우저에서는 약간 다른 렌더링을 적용될 수 있음).
+
+현재 페이지 내의 새 페이지 또는 섹션에 연결할 때 사용되는 ```<a>``` 요소에 버튼 클래스를 사용하는 경우 ```<a>``` 태그 속성에 ```role = "button"```을 지정해야 합니다.
+
+<div class="card">
+<div class="card-body">
+<a href="#" onclick="return false;" class="btn btn-success" role="button">success</a>
+<a href="#" onclick="return false;" class="btn btn-warning" role="button">warning</a>
+<a href="#" onclick="return false;" class="btn btn-danger" role="button">danger</a>
+<a href="#" onclick="return false;" class="btn btn-secondary" role="button">secondary</a>
+<a href="#" onclick="return false;" class="btn btn-info" role="button">info</a>
+<a href="#" onclick="return false;" class="btn btn-brown" role="button">brown</a>
+<a href="#" onclick="return false;" class="btn btn-dark" role="button">dark</a>
+<a href="#" onclick="return false;" class="btn btn-light" role="button">light</a>
+</div>
+
+```html
+<a href="#" class="btn" role="button">btn</a>
+<a href="#" class="btn btn-success" role="button">success</a>
+<a href="#" class="btn btn-warning" role="button">warning</a>
+<a href="#" class="btn btn-danger" role="button">danger</a>
+<a href="#" class="btn btn-secondary" role="button">secondary</a>
+<a href="#" class="btn btn-info" role="button">info</a>
+<a href="#" class="btn btn-brown" role="button">brown</a>
+<a href="#" class="btn btn-dark" role="button">dark</a>
+<a href="#" class="btn btn-light" role="button">light</a>
 ```
 </div>
 
@@ -68,6 +70,7 @@ title: "버튼"
 <button type="button" class="btn btn-outline-success">success</button>
 <button type="button" class="btn btn-outline-warning">warning</button>
 <button type="button" class="btn btn-outline-danger">danger</button>
+<button type="button" class="btn btn-outline-secondary">secondary</button>
 <button type="button" class="btn btn-outline-info">info</button>
 <button type="button" class="btn btn-outline-brown">brown</button>
 <button type="button" class="btn btn-outline-dark">dark</button>
@@ -78,6 +81,7 @@ title: "버튼"
 <button type="button" class="btn btn-outline-success">success</button>
 <button type="button" class="btn btn-outline-warning">warning</button>
 <button type="button" class="btn btn-outline-danger">danger</button>
+<button type="button" class="btn btn-outline-secondary">secondary</button>
 <button type="button" class="btn btn-outline-info">info</button>
 <button type="button" class="btn btn-outline-brown">brown</button>
 <button type="button" class="btn btn-outline-dark">dark</button>
